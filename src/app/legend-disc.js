@@ -10,7 +10,7 @@ module.exports = function() {
         endAngle = 2 * Math.PI * (1 - degrees_between_arc_limits / (360 * 2));
 
 
-    var canvas = d3.select('#calendar-legend').append('svg').attr('height', 300).attr('width', 210);
+    var canvas = d3.select('#calendar-legend').append('svg').attr('height', 270).attr('width', 210);
 
     canvas
       .append('g')
