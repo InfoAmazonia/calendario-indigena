@@ -1,0 +1,845 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Grid
+- Base Styles
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+*/
+
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0; }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .container {
+    width: 80%; }
+  .column,
+  .columns {
+    margin-left: 4%; }
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; }
+
+  .one.column,
+  .one.columns                    { width: 4.66666666667%; }
+  .two.columns                    { width: 13.3333333333%; }
+  .three.columns                  { width: 22%;            }
+  .four.columns                   { width: 30.6666666667%; }
+  .five.columns                   { width: 39.3333333333%; }
+  .six.columns                    { width: 48%;            }
+  .seven.columns                  { width: 56.6666666667%; }
+  .eight.columns                  { width: 65.3333333333%; }
+  .nine.columns                   { width: 74.0%;          }
+  .ten.columns                    { width: 82.6666666667%; }
+  .eleven.columns                 { width: 91.3333333333%; }
+  .twelve.columns                 { width: 100%; margin-left: 0; }
+
+  .one-third.column               { width: 30.6666666667%; }
+  .two-thirds.column              { width: 65.3333333333%; }
+
+  .one-half.column                { width: 48%; }
+
+  /* Offsets */
+  .offset-by-one.column,
+  .offset-by-one.columns          { margin-left: 8.66666666667%; }
+  .offset-by-two.column,
+  .offset-by-two.columns          { margin-left: 17.3333333333%; }
+  .offset-by-three.column,
+  .offset-by-three.columns        { margin-left: 26%;            }
+  .offset-by-four.column,
+  .offset-by-four.columns         { margin-left: 34.6666666667%; }
+  .offset-by-five.column,
+  .offset-by-five.columns         { margin-left: 43.3333333333%; }
+  .offset-by-six.column,
+  .offset-by-six.columns          { margin-left: 52%;            }
+  .offset-by-seven.column,
+  .offset-by-seven.columns        { margin-left: 60.6666666667%; }
+  .offset-by-eight.column,
+  .offset-by-eight.columns        { margin-left: 69.3333333333%; }
+  .offset-by-nine.column,
+  .offset-by-nine.columns         { margin-left: 78.0%;          }
+  .offset-by-ten.column,
+  .offset-by-ten.columns          { margin-left: 86.6666666667%; }
+  .offset-by-eleven.column,
+  .offset-by-eleven.columns       { margin-left: 95.3333333333%; }
+
+  .offset-by-one-third.column,
+  .offset-by-one-third.columns    { margin-left: 34.6666666667%; }
+  .offset-by-two-thirds.column,
+  .offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
+
+  .offset-by-one-half.column,
+  .offset-by-one-half.columns     { margin-left: 52%; }
+
+}
+
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
+html {
+  font-size: 62.5%; }
+body {
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222; }
+
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300; }
+h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
+h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
+h3 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }
+h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
+h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
+h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h1 { font-size: 5.0rem; }
+  h2 { font-size: 4.2rem; }
+  h3 { font-size: 3.6rem; }
+  h4 { font-size: 3.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
+}
+
+p {
+  margin-top: 0; }
+
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #1EAEDB; }
+a:hover {
+  color: #0FA0CE; }
+
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
+
+
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; }
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33C3F0;
+  outline: 0; }
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600; }
+fieldset {
+  padding: 0;
+  border-width: 0; }
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline; }
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal; }
+
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul {
+  list-style: circle inside; }
+ol {
+  list-style: decimal inside; }
+ol, ul {
+  padding-left: 0;
+  margin-top: 0; }
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 1.5rem 0 1.5rem 3rem;
+  font-size: 90%; }
+li {
+  margin-bottom: 1rem; }
+
+
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+code {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px; }
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre; }
+
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1; }
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+th:last-child,
+td:last-child {
+  padding-right: 0; }
+
+
+/* Spacing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+button,
+.button {
+  margin-bottom: 1rem; }
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 1.5rem; }
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ul,
+ol,
+form {
+  margin-bottom: 2.5rem; }
+
+
+/* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
+
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+  border-top: 1px solid #E1E1E1; }
+
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Self Clearing Goodness */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+body{margin:0;padding:0}#corpo{font:14px/20px lighter;font-family:"Fira Sans",sans-serif;width:850px;margin:50px auto;color:#444;background:#fff url("img/fundo.jpg") no-repeat 50% 0;position:relative}a{color:#466464;text-decoration:none;text-shadow:0 0 2px rgba(0,0,0,0.25)}a:hover{color:#5f7c7c;text-shadow:0 0 8px rgba(0,0,0,0.5)}.clear{clear:both;width:100%;height:0}#viz{width:850px;height:675px;margin:0 auto}#content{font-weight:300;text-align:center;width:820px;padding:60px 0}#text{text-align:right;float:left;width:520px;margin-bottom:60px;font-size:15px;line-height:30px}#text a{font-weight:bolder}#text a:hover{text-shadow:0 0 4px rgba(0,0,0,0.2)}#text p.small{font-size:12px;line-height:20px;color:#888;margin-top:30px}.rain .arc path,.river .arc path{opacity:1}.rain .arc:hover path,.river .arc:hover path{opacity:.5}.constelations text{text-anchor:end;font-weight:bolder;font-size:15px;letter-spacing:-0.02em}.constelations text.trad-const{font-weight:lighter;font-size:10px}.constelations circle img:hover{opacity:1}.phasearc{opacity:1;box-shadow:0 0 3px rgba(0,0,0,0.5);stroke:#fff;stroke-opacity:.3}.phasearc:hover{opacity:.5}.rainAxis,.levelAxis{fill:#888;-webkit-transitions:all .5s ease-in-out}.tick{fill:#666}.tick text{font-size:7px}.const-arc-leg,.greg-arc-leg,.level-arc-leg,.rain-arc-leg,.phases-arc-leg{fill:#cac0a5;stroke:#d6bbbb;stroke-opacity:.2;stroke-width:5px;opacity:.5}.const-arc-leg:hover,.greg-arc-leg:hover,.level-arc-leg:hover,.rain-arc-leg:hover,.phases-arc-leg:hover{stroke-width:3px;opacity:.75}.menu{list-style:none;width:230px;height:60px;margin:0;padding:0;text-align:center;overflow:hidden;position:absolute;top:0;z-index:99999}.menu:hover{height:300px}.menu li:hover a{background-color:rgba(103,163,108,0.25);color:#fff}.menu li a{width:215px;line-height:20px;font-family:"Oswald","Share";font-weight:bolder;font-size:12px;background-color:#f6f8f5;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,0.05);-webkit-box-shadow:0 0 10px rgba(0,0,0,0.05);-moz-box-shadow:0 0 10px rgba(0,0,0,0.05);margin:10px auto;position:relative;top:-100%;visibility:hidden}.menu:hover li a{display:block;visibility:visible}.menu li a.active{line-height:40px;height:40px;font-size:20px;font-weight:bolder;top:0;position:absolute;display:block;visibility:visible;background:#fff;margin:10px;-webkit-box-shadow:0 0 10px rgba(0,0,0,0.05);width:215px}.menu:hover li a.active{position:relative}.menu li a.active:hover{background:rgba(143,185,146,0.5);color:#fff}#explanation{position:absolute;top:0;right:0;width:220px;height:215px;padding:15px;z-index:99999;text-align:right;pointer-events:none}.dates-end,.dates-start,.phasetip{font-family:"Fira Sans";font-weight:300;font-size:10px;fill:#6f6f6f}.tip-fase{font-size:12px;line-height:12px;height:12px;color:#666;display:block}.tip-year{font-family:"Oswald";font-size:30px;font-weight:bolder;letter-spacing:-0.1em;fill:#666;color:#666;width:170px;float:left;height:41px;line-height:45px}.tip-date{font-size:13px;font-weight:bolder;letter-spacing:-0.05em;line-height:13px;margin:7px 0 0 0;float:right;height:20px;width:50px}.tip-week{font-size:9px;line-height:13px;margin:0 -10px 0 0;letter-spacing:1em;font-weight:lighter;text-transform:uppercase;float:right;height:20px;width:50px}.tip-level,.tip-rain{font-size:8px;width:170px;height:14px;float:left;margin:4px 0 0 0}.results{font-size:13px;width:35px;height:14px;float:right;font-weight:bolder}.phase-dates{display:block;width:220px}.phase-name{font-size:16px;line-height:18px;width:210px;display:block;letter-spacing:.001em;text-shadow:0 0 10px #fff;float:right}#explanation :after{display:block;font-size:11px;line-height:14px;color:#666;width:165px;margin:5px 0 0 55px;float:right;font-family:"Fira Sans"}.legend-disc text{opacity:0;font-size:10px}.tukano{font-family:"Frugaltuyu LightDTC","Tukano","Oswald"}.tip-year,.tip-date,.tip-week,.tip-level,.tip-rain,.tip-fase,.results,.ciclo-anual{text-shadow:1px 1px 4px rgba(0,0,0,0.3)}.nome-const,.trad-const{text-align:right;margin:0 80px 0 0}.months g{opacity:.5}.months g:hover{opacity:1}.sky image{pointer-events:none}#content h1{font-family:"Oswald";font-weight:lighter;text-transform:uppercase;margin:0 auto 50px;font-size:50px;line-height:50px;color:#719696;text-shadow:0 0 5px rgba(211,207,180,0.75)}#content h2{font-family:"Oswald";font-weight:bolder;text-transform:uppercase;margin:0 auto 50px;font-size:30px;color:#000}#content h3.lead{font-weight:400;font-size:20px;margin:0 0 30px 0;color:#7c7c57}.secondArcHolder path{opacity:.5;fill:#fff}.t-01-const:hover,.t-02-const:hover,.t-03-const:hover,.t-04-const:hover{opacity:.6}#sidebar{font-weight:300;text-align:left;float:right;width:260px;font-size:10px;color:#888;padding:20px 0 60px 0}#sidebar a{display:block}.realiz,.apoio{width:120px;height:120px;float:left;margin:5px}.menor{height:80px}#sidebar .realiz h1{font-size:14px;text-align:center;margin:40px 20px 5px;line-height:14px}#sidebar h2{margin:50px 0 5px 0;font-weight:bolder;font-size:12px}#sidebar h3{margin:60px 0 10px;font-weight:lighter;font-size:10px;text-align:center;clear:both}#sidebar h5{margin:30px 0 5px 0;font-weight:bolder}#sidebar h4{margin:0;font-weight:lighter;font-size:10px}#sidebar h4 b{font-weight:400}#sidebar h4 i{font-size:8px}#sidebar .realiz h4{text-align:center;margin:0 5px;font-size:8px;line-height:10px}.ahsitaro{fill:#ffd369;color:#ffd369}.ahsitaro:after{content:"Veranico. Palavra geral, o mesmo que Kumã ou Kumãtaro"}.ure-kuma{fill:#e19724;color:#e19724}.ure-kuma:after{content:"Verão de Pupunha"}.use-kuma{fill:#be8a62;color:#be8a62}.use-kuma:after{content:"Verão de Cucura"}.mere-kuma{fill:#d49a3e;color:#d49a3e}.mere-kuma:after{content:"Verão de Ingá (fruta regional)"}.wamu-kuma{fill:#d2bc4a;color:#d2bc4a}.wamu-kuma:after{content:"Verão de Umari (nome de fruta cultivada)"}.kare-kuma{fill:#e1d52b;color:#e1d52b}.kare-kuma:after{content:"Verão de Abiu (fruta regional)"}.sararo-kuma{fill:#e8e048;color:#e8e048}.sararo-kuma:after{content:"Verão de (uma espécie de) Gafanhoto"}.nokoatero{fill:#6f5872;color:#6f5872}.nokoatero:after{content:"Enchente de Sete Estrelas (Plêiades)"}.wai-kahsa{fill:#39487b;color:#39487b}.wai-kahsa:after{content:"Enchente de Girau de Peixe"}.sio-yahpu{fill:#39487b;color:#39487b}.sio-yahpu:after{content:"Enchente de Cabo de Enxó"}.sio-yahpu-wahtidhiaro{fill:#4f4774;color:#4f4774}.sio-yahpu-wahtidhiaro:after{content:"Enchente de uma espécie de formiga"}.ana{fill:#a1ae77;color:#a1ae77}.ana:after{content:"Jararaca, nome de uma constelação e de um período chuvoso (inverno ou poerõ)"}.ana-pihkoro{fill:#b4ba8e;color:#b4ba8e}.ana-pihkoro:after{content:"Rabo da Jararaca, parte da constelação"}.ana-siokha{fill:#bbca85;color:#bbca85}.ana-siokha:after{content:"Facho (ou algo como um farol, que ilumina) da Jararaca, outra parte dessa constelação"}.ana-ohpu{fill:#818a60;color:#818a60}.ana-ohpu:after{content:"Corpo da Jararaca, parte da constelação"}.ana-dieripa{fill:#6e735d;color:#6e735d}.ana-dieripa:after{content:"Ova da Jararaca, parte da constelação"}.hia-kuma{fill:#f9a975;color:#f9a975}.hia-kuma:after{content:"Verão curto da Hia, que só come as folhas de uma árvore chamada cunuri"}.hia-utaphea-keose-kuma{fill:#fbb78e;color:#fbb78e}.hia-utaphea-keose-kuma:after{content:"Verões curtos da Hia, lagarta comestível e rara"}.hia-yunari-kuma{fill:#f79d93;color:#f79d93}.hia-yunari-kuma:after{content:"Verões curtos da Hia, lagarta comestível e rara"}.hia-diara-kuma{fill:#f9b6a5;color:#f9b6a5}.hia-diara-kuma:after{content:"Verão curto. Hia é uma lagarta muito rara, que aparece em certos anos e é comestível"}.yai{fill:#7d9c80;color:#7d9c80}.yai:after{content:"Enchente de Onças"}.yai-siokha{fill:#8fb293;color:#8fb293}.yai-siokha:after{content:"Facho da Onça, parte dessa constelação"}.yai-ohpu{fill:#647f69;color:#647f69}.yai-ohpu:after{content:"Corpo da Onça, parte dessa constelação"}.pamo{fill:#978570;color:#978570}.pamo:after{content:"Enchente do Tatu"}.pamo-oaduhka{fill:#cbb9a2;color:#cbb9a2}.pamo-oaduhka:after{content:"Enchente do Osso do Tatu"}.bihpia{fill:#c7d5b8;color:#c7d5b8}.bihpia:after{content:"Enchente de uma espécie de pássaro"}.yhe{fill:#abb799;color:#abb799}.yhe:after{content:"Enchente de Garça"}.yhe-pehtiro{fill:#abb799;color:#abb799}.yhe-pehtiro:after{content:"Fim da enchente de Garça"}.dahsiu{fill:#b2b28b;color:#b2b28b}.dahsiu:after{content:"Enchente do Camarão"}.muha{fill:#688c85;color:#688c85}.muha:after{content:"Enchente do Jacundá"}.yurara{fill:#909669;color:#909669}.yurara:after{content:"Enchente do Jabuti"}.sipe-phairo{fill:#abceec;color:#abceec}.sipe-phairo:after{content:"Jararaca do ânus grande"}.wuru-numuri{fill:#909669;color:#909669}.wuru-numuri:after{content:"Dias de Aru (Bicho-Preguiça)"}
