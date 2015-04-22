@@ -1,19 +1,6 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-
-<script src="lib/d3.v3.min.js"></script>
-<script src="lib/moment.min.js"></script>
-<script src="lib/jquery-2.1.1.min.js"></script>
-
-<link href='http://fonts.googleapis.com/css?family=Fira+Sans:300,500,700' rel='stylesheet' type='text/css'>
-
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
-
-<link rel="icon" type="image/ico" href="favicon.ico" />
-
-<link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
-
-<script>
+var $ = jQuery = require('jquery');
+var d3 = require('d3');
+var moment = require('moment');
 
 // GLOBALS
 var 
@@ -960,18 +947,3 @@ $(document).ready(function(){
 		})
 	});
 });
-
-</script>
-
-<div id="corpo">
-
-<ul class="menu">
-	<li><a href='#2005' class='active'>2005-2006</a></li>
-	<li><a href='#2006'>2006-2007</a></li>
-	<li><a href='#2007'>2007-2008</a></li>
-</ul>
-
-<div id='viz'></div>
-
-<div id='explanation' style='visibility:hidden'></div>
-
