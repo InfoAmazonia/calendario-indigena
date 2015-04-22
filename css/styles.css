@@ -1,0 +1,649 @@
+/*@font-face {
+    font-family: "Tukano";
+    src: url('tukano.otf');
+}*/
+
+/****     Bases    ****/
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#corpo {
+	font: 14px/20px lighter;
+	font-family: "Fira Sans", sans-serif;
+	width: 850px;
+	margin: 50px auto;
+	color: #444;
+	background: #FFF url("img/fundo.jpg") no-repeat 50% 0px;
+	position: relative;
+
+}
+
+a {
+	color: rgb(70, 100, 100);
+	text-decoration: none;
+	text-shadow: 0px 0px 2px rgba(0,0,0,0.25);
+}
+
+a:hover {
+	color: rgb(95, 124, 124);
+	text-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+}
+
+.clear {
+	clear:both;
+	width:100%;
+	height: 0px;
+}
+
+
+/****     Estrutura    ****/
+#viz {
+	width: 850px;
+	height: 675px;
+	margin: 0 auto;
+}
+
+#content {
+	font-weight: 300;
+	text-align:center;
+	width: 820px;
+	padding: 60px 0;
+}
+
+
+/****     Texto    ****/
+#text {
+	text-align:right;
+	float:left;
+	width: 520px;
+	margin-bottom: 60px;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+#text a {
+	font-weight: bolder;
+}
+
+#text a:hover {
+	text-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+}
+
+#text p.small {
+	font-size: 12px;
+	line-height: 20px;
+	color: #888;
+	margin-top: 30px;
+}
+
+.rain .arc path, .river .arc path {
+	opacity: 1;
+}
+
+.rain .arc:hover path, .river .arc:hover path {
+	opacity: 0.5;
+}
+
+.constelations text {
+	text-anchor: end;
+	font-weight: bolder;
+	font-size: 15px;
+	letter-spacing: -0.02em;
+}
+
+.constelations text.trad-const {
+	font-weight: lighter;
+	font-size: 10px;
+}
+
+.constelations circle img:hover {
+	opacity: 1;
+} 
+
+/****    Fases   ****/
+.phasearc {
+	opacity: 1;
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+	stroke:#FFF;
+	stroke-opacity:0.3;
+}
+
+.phasearc:hover {
+	opacity: 0.5;
+}
+
+
+
+/****     Eixos    ****/
+.rainAxis, .levelAxis {
+	fill: #888;
+	-webkit-transitions: all 0.5s ease-in-out;
+}
+
+.tick {
+	fill:#666;	
+}
+
+.tick text { font-size: 7px; }
+
+.const-arc-leg, .greg-arc-leg, .level-arc-leg, .rain-arc-leg, .phases-arc-leg {
+	fill: #CAC0A5;
+	stroke: rgb(214, 187, 187);
+	stroke-opacity: 0.2;
+	stroke-width: 5px;
+	opacity: 0.5;
+}
+
+.const-arc-leg:hover, .greg-arc-leg:hover, .level-arc-leg:hover, .rain-arc-leg:hover, .phases-arc-leg:hover {
+	stroke-width: 3px;
+	opacity: 0.75;
+}
+
+
+/****     Menu    ****/
+.menu {
+	list-style: none;
+	width: 230px;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	overflow: hidden;
+	position: absolute;
+	top:0px;
+	z-index: 99999;
+}
+
+.menu:hover {
+	height: 300px;
+}
+
+.menu li:hover a {
+background-color: rgba(103, 163, 108, 0.25);
+color: #FFF;
+}
+
+.menu li a {
+	width: 215px;
+	line-height: 20px;
+	font-family: "Oswald", "Share";
+	font-weight: bolder;
+	font-size: 12px;
+	background-color: #F6F8F5;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+	margin: 10px auto;
+	position: relative;
+	top: -100%;
+	visibility: hidden;
+}
+
+.menu:hover li a {
+	display: block;
+	visibility: visible;
+}
+
+.menu li a.active {
+	line-height: 40px;
+	height: 40px;
+	font-size: 20px;
+	font-weight: bolder;
+	top: 0;
+	position: absolute;
+	display: block;
+	visibility: visible;
+	background: #FFF;
+	margin: 10px;
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+	width: 215px;
+}
+
+.menu:hover li a.active {
+	position: relative;
+}
+
+.menu li a.active:hover {
+	background: rgba(143, 185, 146, 0.5);
+	color: #FFF;
+}
+
+
+/****     Tooltip    ****/
+#explanation {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 220px;
+	height: 215px;
+	padding: 15px;
+	z-index: 99999;
+	text-align: right;
+	pointer-events:none;
+}
+
+.dates-end, .dates-start, .phasetip {
+	font-family: "Fira Sans";
+	font-weight: 300;
+	font-size: 10px;
+	fill: #6F6F6F;
+}
+
+.tip-fase {
+	font-size: 12px;
+	line-height: 12px;
+	height: 12px;
+	color: #666;
+	display: block;
+}
+
+.tip-year {
+	font-family: "Oswald";
+	font-size: 30px;
+	font-weight: bolder;
+	letter-spacing: -0.1em;
+	fill:#666;
+	color:#666;
+	width: 170px;
+	float: left;
+	height: 41px;
+	line-height: 45px;
+}
+
+.tip-date {
+	font-size: 13px;
+	font-weight: bolder;
+	letter-spacing: -0.05em;
+	line-height: 13px;
+	margin: 7px 0 0 0;
+	float: right;
+	height: 20px;
+	width: 50px;
+}
+
+.tip-week {
+	font-size: 9px;
+	line-height: 13px;
+	margin: 0 -10px 0 0;
+	letter-spacing: 1em;
+	font-weight: lighter;
+	text-transform: uppercase;
+	float: right;
+	height: 20px;
+	width: 50px;
+}
+
+.tip-level, .tip-rain {
+	font-size: 8px;
+	width:170px;
+	height:14px;
+	float:left;
+	margin: 4px 0 0 0;
+}
+
+.results {
+	font-size: 13px;
+	width:35px;
+	height:14px;
+	float:right;
+	font-weight: bolder;
+}
+
+.phase-dates {
+	display: block;
+	width:220px;
+}
+
+.phase-name {
+	font-size: 16px;
+	line-height: 18px;
+	width: 210px;
+	display: block;
+	letter-spacing: 0.001em;
+	text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+	float: right;
+}
+
+#explanation :after {
+	display: block;
+	font-size: 11px;
+	line-height: 14px;
+	color: #666;
+	width: 165px;
+	margin: 5px 0px 0px 55px;
+	float: right;
+	font-family: "Fira Sans";
+}
+
+
+/****     Legenda    ****/
+.legend-disc text {
+	opacity: 0;
+	font-size: 10px;
+}
+
+
+
+
+
+.tukano {
+	font-family: "Frugaltuyu LightDTC", "Tukano", "Oswald";
+}
+
+.tip-year, .tip-date, .tip-week, .tip-level, .tip-rain, .tip-fase, .results, .ciclo-anual {
+	text-shadow: 1px 1px 4px rgba(0,0,0,0.3);	
+}
+
+.nome-const, .trad-const {
+	text-align: right;
+	margin: 0 80px 0 0;
+}
+
+
+.months g {
+	opacity: 0.5;
+}
+
+.months g:hover {
+	opacity: 1;
+}
+
+.sky image {
+	pointer-events: none;
+}
+
+#content h1 {
+	font-family: "Oswald";
+	font-weight: lighter;
+	text-transform: uppercase;
+	margin: 0px auto 50px;
+	font-size: 50px;
+	line-height: 50px;
+	color: rgb(113, 150, 150);
+	text-shadow: 0px 0px 5px rgba(211, 207, 180, 0.75);
+}
+
+#content h2 {
+	font-family: "Oswald";
+	font-weight: bolder;
+	text-transform: uppercase;
+	margin: 0px auto 50px;
+	font-size: 30px;
+	color: rgb(0, 0, 0);
+}
+
+#content h3.lead {
+	font-weight: 400;
+	font-size: 20px;
+	margin: 0px 0px 30px 0px;
+	color: rgb(124, 124, 87);
+}
+
+/*.01-const, .02-const, .03-const, .04-const, .05-const, .06-const, .07-const, .08-const, .09-const, .10-const, .11-const, .12-const {
+	fill:yellow;
+	background: yellow;
+}*/
+
+.secondArcHolder path {
+	opacity: 0.5;
+	fill:#FFF;
+}
+
+.t-01-const:hover, .t-02-const:hover, .t-03-const:hover, .t-04-const:hover {
+	opacity:0.6;
+}
+
+#sidebar {
+	font-weight: 300;
+	text-align:left;
+	float:right;
+	width: 260px;
+	font-size: 10px;
+	color: #888;
+	padding: 20px 0px 60px 0px;
+}
+
+#sidebar a {
+	display: block;
+}
+
+.realiz, .apoio {
+	width:120px;
+	height:120px;
+	float:left;
+	margin:5px;
+}
+
+.menor {
+	height: 80px;
+}
+
+#sidebar .realiz h1 {
+	font-size: 14px;
+	text-align: center;
+	margin: 40px 20px 5px;
+	line-height: 14px;
+}
+
+#sidebar h2 {
+	margin: 50px 0px 5px 0px;
+	font-weight: bolder;
+	font-size:12px;
+}
+
+#sidebar h3 {
+	margin:60px 0px 10px;
+	font-weight: lighter;
+	font-size:10px;
+	text-align: center;
+	clear:both;
+}
+
+#sidebar h5 {
+	margin: 30px 0px 5px 0px;
+	font-weight: bolder;
+}
+
+#sidebar h4 {
+	margin: 0px;
+	font-weight: lighter;
+	font-size:10px;
+}
+
+#sidebar h4 b {
+	font-weight: 400;
+}
+
+#sidebar h4 i {
+	font-size: 8px;
+}
+
+
+#sidebar .realiz h4 {
+	text-align: center;
+	margin: 0px 5px;
+	font-size: 8px;
+	line-height: 10px;
+}
+
+/*.t-02-const:hover + .02-const {
+	opacity:1;
+}
+
+.t-03-const:hover .03-const {
+	opacity:1;
+}
+
+.t-04-const:hover ~ .04-const {
+	opacity:1;
+}
+
+.t-05-const:hover ~ .05-const {
+	opacity:1;
+}
+
+
+.01-const:before {
+	content: "Aña <span>Jararaca</span>";
+}*/
+
+/* * * Fases * * */
+
+.ahsitaro { fill: #FFD369; color: #FFD369; }
+
+.ahsitaro:after { content: "Veranico. Palavra geral, o mesmo que Kumã ou Kumãtaro"; }
+
+
+
+
+.ure-kuma {	fill: #E19724; color: #E19724; }
+
+.ure-kuma:after { content: "Verão de Pupunha"; }
+
+.use-kuma { fill: #BE8A62; color: #BE8A62; }
+
+.use-kuma:after { content: "Verão de Cucura"; }
+
+.mere-kuma { fill: #D49A3E; color: #D49A3E; }
+
+.mere-kuma:after { content: "Verão de Ingá (fruta regional)"; }
+
+.wamu-kuma { fill: #D2BC4A; color: #D2BC4A; }
+
+.wamu-kuma:after { content: "Verão de Umari (nome de fruta cultivada)"; }
+
+.kare-kuma { fill: #E1D52B; color: #E1D52B; }
+
+.kare-kuma:after { content: "Verão de Abiu (fruta regional)"; }
+
+.sararo-kuma { fill: #E8E048; color: #E8E048; }
+
+.sararo-kuma:after { content: "Verão de (uma espécie de) Gafanhoto"; }
+
+
+
+
+.nokoatero { fill: #6F5872; color: #6F5872; }
+
+.nokoatero:after { content: "Enchente de Sete Estrelas (Plêiades)"; }
+
+.wai-kahsa { fill: #39487B; color: #39487B; }
+
+.wai-kahsa:after { content: "Enchente de Girau de Peixe"; }
+
+.sio-yahpu { fill: #39487B; color: #39487B; }
+
+.sio-yahpu:after { content: "Enchente de Cabo de Enxó"; }
+
+.sio-yahpu-wahtidhiaro { fill: #4F4774; color: #4F4774; }
+
+.sio-yahpu-wahtidhiaro:after { content: "Enchente de uma espécie de formiga"; }
+
+
+
+
+.ana { fill: #A1AE77; color: #A1AE77; }
+
+.ana:after { content: "Jararaca, nome de uma constelação e de um período chuvoso (inverno ou poerõ)"; }
+
+.ana-pihkoro { fill: #B4BA8E; color: #B4BA8E; }
+
+.ana-pihkoro:after { content: "Rabo da Jararaca, parte da constelação"; }
+
+.ana-siokha { fill: #BBCA85; color: #BBCA85; }
+
+.ana-siokha:after { content: "Facho (ou algo como um farol, que ilumina) da Jararaca, outra parte dessa constelação"; }
+
+.ana-ohpu { fill: #818A60; color: #818A60; }
+
+.ana-ohpu:after { content: "Corpo da Jararaca, parte da constelação"; }
+
+.ana-dieripa { fill: #6E735D; color: #6E735D; }
+
+.ana-dieripa:after { content: "Ova da Jararaca, parte da constelação"; }
+
+
+
+.hia-kuma { fill: #F9A975; color: #F9A975; }
+
+.hia-kuma:after { content: "Verão curto da Hia, que só come as folhas de uma árvore chamada cunuri"; }
+
+.hia-utaphea-keose-kuma { fill: #FBB78E; color: #FBB78E; }
+
+.hia-utaphea-keose-kuma:after { content: "Verões curtos da Hia, lagarta comestível e rara"; }
+
+.hia-yunari-kuma { fill: #F79D93; color: #F79D93; }
+
+.hia-yunari-kuma:after { content: "Verões curtos da Hia, lagarta comestível e rara"; }
+
+.hia-diara-kuma { fill: #F9B6A5; color: #F9B6A5; }
+
+.hia-diara-kuma:after { content: "Verão curto. Hia é uma lagarta muito rara, que aparece em certos anos e é comestível"; }
+
+
+
+
+.yai { fill: #7D9C80; color: #7D9C80; }
+
+.yai:after { content: "Enchente de Onças"; }
+
+.yai-siokha { fill: #8FB293; color: #8FB293; }
+
+.yai-siokha:after { content: "Facho da Onça, parte dessa constelação"; }
+
+.yai-ohpu { fill: #647F69; color: #647F69; }
+
+.yai-ohpu:after { content: "Corpo da Onça, parte dessa constelação"; }
+
+
+
+.pamo { fill: #978570; color: #978570; }
+
+.pamo:after { content: "Enchente do Tatu"; }
+
+.pamo-oaduhka { fill: #CBB9A2;  color: #CBB9A2; }
+
+.pamo-oaduhka:after { content: "Enchente do Osso do Tatu"; }
+
+
+
+.bihpia { fill: #C7D5B8; color: #C7D5B8; }
+
+.bihpia:after { content: "Enchente de uma espécie de pássaro"; }
+
+
+
+.yhe { fill: #ABB799;  color: #ABB799; }
+
+.yhe:after { content: "Enchente de Garça"; }
+
+.yhe-pehtiro { fill: #ABB799; color: #ABB799; }
+
+.yhe-pehtiro:after { content: "Fim da enchente de Garça"; }
+
+
+
+
+.dahsiu { fill: #B2B28B;  color: #B2B28B; }
+
+.dahsiu:after { content: "Enchente do Camarão"; }
+
+.muha { fill: #688C85; color: #688C85; }
+
+.muha:after { content: "Enchente do Jacundá"; }
+
+.yurara { fill: #909669; color: #909669; }
+
+.yurara:after { content: "Enchente do Jabuti"; }
+
+.sipe-phairo { fill: #ABCEEC; color: #ABCEEC; }
+
+.sipe-phairo:after { content: "Jararaca do ânus grande"; }
+
+.wuru-numuri { fill: #909669; color: #909669; }
+
+.wuru-numuri:after { content: "Dias de Aru (Bicho-Preguiça)"; }
+
