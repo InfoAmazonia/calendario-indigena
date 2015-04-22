@@ -586,26 +586,26 @@ var legenddisc = d3.select(".legend-disc");
     legenddisc.append("path")
   	.attr("d",gregArcLeg)
   	.attr("class","greg-arc-leg")
-    .on("mouseover", function() { d3.select('text[class="txt-greg"]').style("opacity",1)})
-  	.on("mouseleave", function() { d3.select('text[class="txt-greg"]').style("opacity",0)});
+    .on("mouseover", function() { legenddisc.select('text[class="txt-greg"]').style("opacity",1)})
+  	.on("mouseleave", function() { legenddisc.select('text[class="txt-greg"]').style("opacity",0)});
 
     legenddisc.append("path")
   	.attr("d",levelArcLeg)
   	.attr("class","level-arc-leg")
-    .on("mouseover", function() { d3.select('text[class="txt-level"]').style("opacity",1)})
-  	.on("mouseleave", function() { d3.select('text[class="txt-level"]').style("opacity",0)});
+    .on("mouseover", function() { legenddisc.select('text[class="txt-level"]').style("opacity",1)})
+  	.on("mouseleave", function() { legenddisc.select('text[class="txt-level"]').style("opacity",0)});
 
     legenddisc.append("path")
   	.attr("d",rainArcLeg)
   	.attr("class","rain-arc-leg")
-    .on("mouseover", function() { d3.select('text[class="txt-rain"]').style("opacity",1)})
-  	.on("mouseleave", function() { d3.select('text[class="txt-rain"]').style("opacity",0)});
+    .on("mouseover", function() { legenddisc.select('text[class="txt-rain"]').style("opacity",1)})
+  	.on("mouseleave", function() { legenddisc.select('text[class="txt-rain"]').style("opacity",0)});
 
     legenddisc.append("path")
   	.attr("d",phasesArcLeg)
   	.attr("class","phases-arc-leg")
-    .on("mouseover", function() { d3.select('text[class="txt-phases"]').style("opacity",1)})
-  	.on("mouseleave", function() { d3.select('text[class="txt-phases"]').style("opacity",0)});
+    .on("mouseover", function() { legenddisc.select('text[class="txt-phases"]').style("opacity",1)})
+  	.on("mouseleave", function() { legenddisc.select('text[class="txt-phases"]').style("opacity",0)});
 
   	legenddisc.append("text").attr("class","txt-const")
   	.text("Constelações Tukano");

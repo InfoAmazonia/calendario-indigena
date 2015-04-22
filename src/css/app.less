@@ -1,3 +1,73 @@
 @import (inline) "normalize.css";
 @import (inline) "skeleton.css";
 @import "calendario";
+
+.row {
+	margin-bottom: 40px;
+}
+
+#masthead {
+	padding: 40px 0;
+	background: #333;
+	border-bottom: 2px solid #111;
+	color: #fff;
+	h1,
+	h2 {
+		font-family: "Fira Sans";
+		line-height: 100%;
+		text-align: center;
+	}
+	h1 {
+		text-transform: uppercase;
+		margin: 0;
+		font-size: 50px;
+		color: #fff;
+	}
+	h2 {
+		font-size: 23px;
+		color: #ccc;
+	}
+	p {
+		color: #999;
+	}
+	.head-title {
+		border-bottom: 1px solid #444;
+		padding: 0 0 20px;
+		margin: 0 0 20px;
+	}
+	#site-desc {
+		margin-top: 30px;
+		p {
+			font-size: 18px;
+			line-height: 150%;
+		}
+	}
+	#calendar-legend {
+		width: 300px;
+		height: 300px;
+		margin-top: -20px;
+		p {
+			font-size: 12px;
+			text-transform: uppercase;
+			margin: 0;
+			text-align: right;
+		}
+		svg {
+			float: right;
+			path {
+				fill: #999;
+				stroke: #444;
+				stroke-opacity: 0.2;
+				stroke-width: 2px;
+				opacity: 0.5;
+				&:hover {
+					fill: #fff;
+					stroke-width: 0;
+				}
+			}
+			text {
+				fill: #999;
+			}
+		}
+	}
+}
