@@ -28,6 +28,10 @@ $(document).ready(function() {
 			if(scrollTop >= offset) {
 				if(!clone && !clone.length) {
 					clone = $nav.clone();
+					clone.css({
+						width: $nav.width(),
+						left: $nav.offset().left
+					});
 					clone.addClass('fixed').insertAfter($nav);
 				}
 			} else {

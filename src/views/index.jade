@@ -20,15 +20,21 @@ html
 						p Entenda o funcionamento
 							br
 							| do calendário:
+
 		include viz
 
-		iframe(width="560" height="315" src="https://www.youtube.com/embed/zEa6ZUMWb4Q" frameborder="0" allowfullscreen)
+		.row
+			#map
+				iframe(width='100%' height='520' frameborder='0' src='https://infoamazonia.cartodb.com/viz/435e6a7a-ed19-11e4-a718-0e9d821ea90d/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen)
 
-		include includes/content-nav
+			#video
+				iframe(width="560" height="315" src="https://www.youtube.com/embed/zEa6ZUMWb4Q" frameborder="0" allowfullscreen)
 
-		section#alto-rio-negro.page-section
-			.container
-				.eight.columns.offset-by-two
+		.container
+			.three.columns
+				include includes/content-nav
+			.eight.columns
+				section#alto-rio-negro.page-section
 					h2 Alto rio Negro – noroeste amazônico
 					p O noroeste amazônico compreende o Alto Rio Negro, região de fronteira entre Brasil, Colômbia e Venezuela, onde habitam 31 povos de quatro famílias linguísticas que constituem um sistema multi-étnico que perdura desde tempos pré-coloniais. Apenas na parte brasileira estão localizadas nove terras indígenas homologadas a partir de 1997, totalizando mais de 200 mil km² em extensão contínua. Com uma população total de 64 mil (estimativa IBGE, 2014), distribuída em cerca de 700 comunidades e pequenas cidades ribeirinhas, é a região com a maior proporção de população indígena no Brasil, superando 80%.
 					p Antes da colonização portuguesa, toda a bacia do rio Negro era mais povoada. A partir do século XVIII, sua população foi sendo concentrada em aldeamentos, transferida compulsoriamente para trabalhos forçados no baixo Amazonas e dizimada em guerras e invasões. Todo o curso baixo e médio do Negro, bem como seus afluentes, viram-se esvaziados de sua população original. O alto rio Negro tornou-se uma área de refúgio que, embora também fosse alvo de violências na busca por produtos e mão-de-obra, foi relativamente menos assolada pelas invasões. A divisão geopolítica pós-colonial, com a demarcação das fronteiras nacionais, significou novas formas de interferência no sistema social tradicional, com seus desdobramentos atuais, como militarização, escolarização visando a integração dos povos indígenas às respectivas sociedades nacionais, difusão das línguas nacionais (português e espanhol), dependência de bens industrializados etc.
@@ -63,9 +69,7 @@ html
 							td pouco produtiva
 							td desenvolvida
 							td desenvolvida
-		section#clicos-anuais.page-section
-			.container
-				.eight.columns.offset-by-two
+				section#clicos-anuais.page-section
 					h2 Os ciclos anuais
 					h3 Calendário dos povos indígenas do rio Tiquié
 					p Para os povos indígenas do noroeste amazônico, os conhecimentos e práticas de manejo estão encadeados ao longo de ciclos anuais. Ao narrarem o ciclo anual, os conhecedores indígenas do rio Tiquié tem como principal referência as constelações astronômicas (ñokoa wametise, em tukano), a maior parte delas situada no equador celeste. Cada constelação tem uma narrativa de origem, associada a algum episódio da criação do mundo. A constelação considerada em cada período é aquela que está se pondo naqueles dias no começo da noite, quando já estão visíveis ao escurecer. Essas constelações nomeiam um conjunto de dez a doze estações chuvosas que se sucedem no ano. Em tukano essas enchentes são chamadas poero; são os dias de inverno e repiquete do rio. Estão entremeadas por estações caracterizadas por dias de sol e vazante do rio, chamados em tukano de k¡ma (são os verões).
@@ -77,9 +81,7 @@ html
 					p Até aqui, depois de nove meses do começo do ciclo anual, as estações são mais definidas e melhor identificadas. A partir daqui (agosto), até o fim do ciclo anual (outubro), as estações são menos marcadas e há maior variabilidade, entre os conhecedores indígenas, na forma como são identificadas. Em termos bem gerais, predominam a constelação de Yhe (Garça) e o conjunto de verões de Iña (ou Iã ou ainda Hiña, que são as lagartas comestíveis sazonais das árvores de cunuri).
 					p Além da constelação de Yhe, as outras que passam nesse período e que são mais comumente mencionadas são as de Lontra (Diayoa), Bodó (Yahka), Bihpia, Ñamia, Folhas (Puri), Thoto, Sihpia, Jabuti (Uú), Kaisariro. O nível do rio é muito variável. Há anos em que a cheia do rio se prolonga pelo mês de agosto e mesmo além, enquanto em outros pode acontecer intensos verões com rio bem seco. Acontece uma segunda fase de migrações de peixes rio acima, agora chamados de iña wai (peixes de lagartas-do-cunurizeiro). Os aracus estão formando os ovos. Com o verão, acontece a pesca com zagaia à noite, de tucunaré, acarás, jacundás e outras espécies e, com o rio mais seco, é possível usar timbó em alguns locais.
 					p Frutificação de buriti, ingá, abiu, cucura, pupunha; japurá; início de pahtid¡hka, umari e tohto. Continua a preparação de novos roçados; queima de capoeiras nos verões de Iña; quando mais intensos, incluindo de mata primária; segue o plantio. Assim chega o fim do ciclo anual.
-		section#pesquisa-colaborativa.page-section
-			.container
-				.eight.columns.offset-by-two
+				section#pesquisa-colaborativa.page-section
 					h2 A pesquisa colaborativa
 					p Essa é uma pesquisa sobre o tempo, como compreendido no rio Tiquié. A proposta dessa pesquisa, na fase atual, é entender como são esses ciclos anuais e como e porque eles variam.
 					p Essa pesquisa colaborativa, intercultural e interdisciplinar, de longa duração, sobre os ciclos anuais e seu manejo é desenvolvida por comunidades e associações indígenas do rio Tiquié em coordenação com o Instituto Socioambiental (ISA). Visa descrever, analisar e compartilhar informações sobre os ciclos anuais e suas variações, aliando conhecimentos indígenas a métodos científicos de registro e organização de dados.
@@ -91,9 +93,7 @@ html
 					p Também são registrados o cotidiano da comunidade e trabalhos de seus moradores, como refeições comunitárias, notícias de caçaria e pescaria, atividades agrícolas (derrubadas de mata primária ou secundária, queima, plantio, colheita), festividades e rituais comunitários. Registram ainda as doenças mais comuns.
 					p Os diários não são padronizados, são oferecidos aos AIMAs cadernos, canetas e material de desenho e uma lista de sugestões para observação e registro, além da orientação para que escrevam diariamente, mas cada um tem toda liberdade de fazê-lo ou não e da maneira que puder.
 					p A preocupação em sistematizar coletivamente as informações reunidas nos diários levou à realização de oficinas de trabalho a partir de 2006, geralmente reunindo apenas os AIMAs de uma das regiões do Tiquié junto com os pesquisadores do ISA. Nessas pequenas oficinas com duração aproximada de uma semana, é feita a leitura dos diários e montada uma linha do tempo para cada uma das regiões, já que há variações significativas entre elas. Por exemplo, há fenômenos que ocorrem no baixo e no médio Tiquié, mas não no alto, como a migração de certas espécies de peixes que não seguem além das primeiras cachoeiras do rio. Para essas oficinas são convidados conhecedores mais velhos, e são discutidos temas pertinentes sob vários pontos de vista, quando são geradas muitas informações de interesse para o manejo e para a pesquisa.
-		section#manejo-do-mundo.page-section
-			.container
-				.eight.columns.offset-by-two
+				section#manejo-do-mundo.page-section
 					h2 Manejo do mundo
 					p Manejo do mundo é uma tradução para a noção que abrange práticas que envolvem observar, entender, curar, proteger, mediar, reparar, comunicar, compartir. É o manejo que, a partir de cada povo e comunidade, visa diferentes escalas - da casa ao território.
 					p Nas palavras do kumu tuyuka Domingos Valle (falecido em 2013), de Bellavista, igarapé Abiu, no alto Tiquié colombiano, “os velhos conhecedores do calendário ecológico realizam benzimentos de proteção conforme as épocas próprias para se realizar certos trabalhos, e para proteção de certas doenças do tempo. Na cerimônia de cada época, quando não se benze adequadamente - bem especificado o que pode vir a atingir a pessoa no tempo definido para cada etapa de trabalho -, a pessoa pode sentir-se doente e com sua alma ou coração agitado. Nós velhos, contamos as épocas através das constelações, mas atualmente sabemos bem os nomes dos meses também.”
@@ -101,9 +101,7 @@ html
 					p Más que nadie, más que el hombre, son los animales los que conocen mejor el funcionamiento del tiempo. En cambio el hombre sigue sólo lo que sucede a la vista real. Al ver que todo esto ocurre, nosotros los kumua, hacemos Curación y Prevención, para acordar espiritualmente con ellos, que nosotros los humanos también hacemos parte de los animales, porque nos alimentarnos de ciertas especies de frutales silvestres, al igual que ellos. Para eso, primero prevenimos enfermedades, y en segundo lugar, hacemos Curaciones para que los frutales no traigan enfermedades, cuando éstos sean consumidos por los hombres. A esto se deben los rituales que se realizan durante esta época, sobre todo para prevenir las enfermedades, y curar las especies para el consumo humano; sean frutales, animales y peces.
 					p Así es que funciona el Calendario Ecológico y nadie podrá ni ordenar ni destruir lo que ya está dado desde el principio. Y así es, así es que pasa, porque desde el Principio de la Creación, fueron los mismos animales protagonistas de historias de origen, acompañados por los Ayawa, en diferentes acontecimientos. Por eso, ellos conocen muy bien cuándo hay producción de frutales y cuándo no hay, cuándo hay que criar hijos y cuándo no. Ellos son más inteligentes que nosotros, por algo habitan en la selva.
 					p De esta manera, sabemos que los indígenas estamos conectados con el mundo animal y vegetal, incluyendo el mismo espacio donde vivimos. Este es el propio método que tenemos para el manejo de nuestro territorio. Sabiendo y practicando nuestro Conocimiento Ancestral (Kumua Baseri Keti Oka), por ahora decimos, que mientras los kumua estemos vivos, el manejo seguirá vigente. Para que este conocimiento tenga la seguridad de seguir vigente, estamos construyendo y fortaleciendo este manejo con este trabajo de investigación, que es sumamente importante para las generaciones futuras.”
-		section#povos-indigenas.page-section
-			.container
-				.eight.columns.offset-by-two
+				section#povos-indigenas.page-section
 					h2 Povos indígenas da Amazônia e mudanças climáticas
 					p Atualmente, 21% da extensão da Amazônia é ocupada e reconhecida como de usufruto exclusivo dos povos indígenas. Na Amazônia brasileira essa proporção é de 22%, enquanto na Colômbia supera os 50% (link com RAISG). Pesquisas etnológicas e arqueológicas têm demonstrando como os conhecimentos e práticas indígenas são responsáveis, em grande medida, na produção e reprodução da grande diversidade ambiental da Amazônia. Extensas paisagens são resultado de práticas de manejo específicas, assim como espécies importantes na economia regional, como a castanha-do-pará, foram distribuídas em larga escala por populações indígenas. Também estão avançadas as pesquisas que mostram a importância das florestas tropicais úmidas, com destaque para a Floresta Amazônica, no equilíbrio ecossistêmico em escala regional e global. É clara a importância da floresta amazônica no ciclo hidrológico que influencia as precipitações no centro e sul do Brasil. Igualmente evidente é relevância de se evitar o desmatamento nessa região como estratégia de mitigação das emissões de gases de efeito estufa, sendo que de 15 a 20% das emissões totais provêm da eliminação de florestas tropicais.
 					p No entanto, ameaças sobre esse bioma e suas populações tradicionais são crescentes, sendo que a conjuntura política e econômica nacional vem favorecendo, crescentemente, pressões predatórias associadas ao agronegócio, aos grandes projetos de infraestrutura para produção de energia e mineração. As políticas desenvolvimentistas ganham espaço em detrimento dos direitos e territórios indígenas e da legislação e governança ambiental. O cenário atual é de tensões e conflitos em torno da governança ambiental de extensos territórios da Amazônia (link Amazônia sob Pressão).

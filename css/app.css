@@ -842,4 +842,1569 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
-body{margin:0;padding:0}#corpo{font:14px/20px lighter;font-family:"Fira Sans",sans-serif;width:850px;margin:50px auto;color:#444;background:#fff url("img/fundo.jpg") no-repeat 50% 0;position:relative}a{color:#466464;text-decoration:none;text-shadow:0 0 2px rgba(0,0,0,0.25)}a:hover{color:#5f7c7c;text-shadow:0 0 8px rgba(0,0,0,0.5)}.clear{clear:both;width:100%;height:0}#viz{width:850px;height:675px;margin:0 auto}#content{font-weight:300;text-align:center;width:820px;padding:60px 0}#text{text-align:right;float:left;width:520px;margin-bottom:60px;font-size:15px;line-height:30px}#text a{font-weight:bolder}#text a:hover{text-shadow:0 0 4px rgba(0,0,0,0.2)}#text p.small{font-size:12px;line-height:20px;color:#888;margin-top:30px}.rain .arc path,.river .arc path{opacity:1}.rain .arc:hover path,.river .arc:hover path{opacity:.5}.constelations text{text-anchor:end;font-weight:bolder;font-size:15px;letter-spacing:-0.02em}.constelations text.trad-const{font-weight:lighter;font-size:10px}.constelations circle img:hover{opacity:1}.phasearc{opacity:1;box-shadow:0 0 3px rgba(0,0,0,0.5);stroke:#fff;stroke-opacity:.3}.phasearc:hover{opacity:.5}.rainAxis,.levelAxis{fill:#888;-webkit-transitions:all .5s ease-in-out}.tick{fill:#666}.tick text{font-size:7px}.const-arc-leg,.greg-arc-leg,.level-arc-leg,.rain-arc-leg,.phases-arc-leg{fill:#cac0a5;stroke:#d6bbbb;stroke-opacity:.2;stroke-width:5px;opacity:.5}.const-arc-leg:hover,.greg-arc-leg:hover,.level-arc-leg:hover,.rain-arc-leg:hover,.phases-arc-leg:hover{stroke-width:3px;opacity:.75}.menu{list-style:none;width:230px;height:60px;margin:0;padding:0;text-align:center;overflow:hidden;position:absolute;top:0;z-index:99999}.menu:hover{height:300px}.menu li:hover a{background-color:rgba(103,163,108,0.25);color:#fff}.menu li a{width:215px;line-height:20px;font-family:"Oswald","Share";font-weight:bolder;font-size:12px;background-color:#f6f8f5;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,0.05);-webkit-box-shadow:0 0 10px rgba(0,0,0,0.05);-moz-box-shadow:0 0 10px rgba(0,0,0,0.05);margin:10px auto;position:relative;top:-100%;visibility:hidden}.menu:hover li a{display:block;visibility:visible}.menu li a.active{line-height:40px;height:40px;font-size:20px;font-weight:bolder;top:0;position:absolute;display:block;visibility:visible;background:#fff;margin:10px;-webkit-box-shadow:0 0 10px rgba(0,0,0,0.05);width:215px}.menu:hover li a.active{position:relative}.menu li a.active:hover{background:rgba(143,185,146,0.5);color:#fff}#explanation{position:absolute;top:0;right:0;width:220px;height:215px;padding:15px;z-index:99999;text-align:right;pointer-events:none}.dates-end,.dates-start,.phasetip{font-family:"Fira Sans";font-weight:300;font-size:10px;fill:#6f6f6f}.tip-fase{font-size:12px;line-height:12px;height:12px;color:#666;display:block}.tip-year{font-family:"Oswald";font-size:30px;font-weight:bolder;letter-spacing:-0.1em;fill:#666;color:#666;width:170px;float:left;height:41px;line-height:45px}.tip-date{font-size:13px;font-weight:bolder;letter-spacing:-0.05em;line-height:13px;margin:7px 0 0 0;float:right;height:20px;width:50px}.tip-week{font-size:9px;line-height:13px;margin:0 -10px 0 0;letter-spacing:1em;font-weight:lighter;text-transform:uppercase;float:right;height:20px;width:50px}.tip-level,.tip-rain{font-size:8px;width:170px;height:14px;float:left;margin:4px 0 0 0}.results{font-size:13px;width:35px;height:14px;float:right;font-weight:bolder}.phase-dates{display:block;width:220px}.phase-name{font-size:16px;line-height:18px;width:210px;display:block;letter-spacing:.001em;text-shadow:0 0 10px #fff;float:right}#explanation :after{display:block;font-size:11px;line-height:14px;color:#666;width:165px;margin:5px 0 0 55px;float:right;font-family:"Fira Sans"}.legend-disc text{opacity:0;font-size:10px}.tukano{font-family:"Frugaltuyu LightDTC","Tukano","Oswald"}.tip-year,.tip-date,.tip-week,.tip-level,.tip-rain,.tip-fase,.results,.ciclo-anual{text-shadow:1px 1px 4px rgba(0,0,0,0.3)}.nome-const,.trad-const{text-align:right;margin:0 80px 0 0}.months g{opacity:.5}.months g:hover{opacity:1}.sky image{pointer-events:none}#content h1{font-family:"Oswald";font-weight:lighter;text-transform:uppercase;margin:0 auto 50px;font-size:50px;line-height:50px;color:#719696;text-shadow:0 0 5px rgba(211,207,180,0.75)}#content h2{font-family:"Oswald";font-weight:bolder;text-transform:uppercase;margin:0 auto 50px;font-size:30px;color:#000}#content h3.lead{font-weight:400;font-size:20px;margin:0 0 30px 0;color:#7c7c57}.secondArcHolder path{opacity:.5;fill:#fff}.t-01-const:hover,.t-02-const:hover,.t-03-const:hover,.t-04-const:hover{opacity:.6}#sidebar{font-weight:300;text-align:left;float:right;width:260px;font-size:10px;color:#888;padding:20px 0 60px 0}#sidebar a{display:block}.realiz,.apoio{width:120px;height:120px;float:left;margin:5px}.menor{height:80px}#sidebar .realiz h1{font-size:14px;text-align:center;margin:40px 20px 5px;line-height:14px}#sidebar h2{margin:50px 0 5px 0;font-weight:bolder;font-size:12px}#sidebar h3{margin:60px 0 10px;font-weight:lighter;font-size:10px;text-align:center;clear:both}#sidebar h5{margin:30px 0 5px 0;font-weight:bolder}#sidebar h4{margin:0;font-weight:lighter;font-size:10px}#sidebar h4 b{font-weight:400}#sidebar h4 i{font-size:8px}#sidebar .realiz h4{text-align:center;margin:0 5px;font-size:8px;line-height:10px}.ahsitaro{fill:#ffd369;color:#ffd369}.ahsitaro:after{content:"Veranico. Palavra geral, o mesmo que Kumã ou Kumãtaro"}.ure-kuma{fill:#e19724;color:#e19724}.ure-kuma:after{content:"Verão de Pupunha"}.use-kuma{fill:#be8a62;color:#be8a62}.use-kuma:after{content:"Verão de Cucura"}.mere-kuma{fill:#d49a3e;color:#d49a3e}.mere-kuma:after{content:"Verão de Ingá (fruta regional)"}.wamu-kuma{fill:#d2bc4a;color:#d2bc4a}.wamu-kuma:after{content:"Verão de Umari (nome de fruta cultivada)"}.kare-kuma{fill:#e1d52b;color:#e1d52b}.kare-kuma:after{content:"Verão de Abiu (fruta regional)"}.sararo-kuma{fill:#e8e048;color:#e8e048}.sararo-kuma:after{content:"Verão de (uma espécie de) Gafanhoto"}.nokoatero{fill:#6f5872;color:#6f5872}.nokoatero:after{content:"Enchente de Sete Estrelas (Plêiades)"}.wai-kahsa{fill:#39487b;color:#39487b}.wai-kahsa:after{content:"Enchente de Girau de Peixe"}.sio-yahpu{fill:#39487b;color:#39487b}.sio-yahpu:after{content:"Enchente de Cabo de Enxó"}.sio-yahpu-wahtidhiaro{fill:#4f4774;color:#4f4774}.sio-yahpu-wahtidhiaro:after{content:"Enchente de uma espécie de formiga"}.ana{fill:#a1ae77;color:#a1ae77}.ana:after{content:"Jararaca, nome de uma constelação e de um período chuvoso (inverno ou poerõ)"}.ana-pihkoro{fill:#b4ba8e;color:#b4ba8e}.ana-pihkoro:after{content:"Rabo da Jararaca, parte da constelação"}.ana-siokha{fill:#bbca85;color:#bbca85}.ana-siokha:after{content:"Facho (ou algo como um farol, que ilumina) da Jararaca, outra parte dessa constelação"}.ana-ohpu{fill:#818a60;color:#818a60}.ana-ohpu:after{content:"Corpo da Jararaca, parte da constelação"}.ana-dieripa{fill:#6e735d;color:#6e735d}.ana-dieripa:after{content:"Ova da Jararaca, parte da constelação"}.hia-kuma{fill:#f9a975;color:#f9a975}.hia-kuma:after{content:"Verão curto da Hia, que só come as folhas de uma árvore chamada cunuri"}.hia-utaphea-keose-kuma{fill:#fbb78e;color:#fbb78e}.hia-utaphea-keose-kuma:after{content:"Verões curtos da Hia, lagarta comestível e rara"}.hia-yunari-kuma{fill:#f79d93;color:#f79d93}.hia-yunari-kuma:after{content:"Verões curtos da Hia, lagarta comestível e rara"}.hia-diara-kuma{fill:#f9b6a5;color:#f9b6a5}.hia-diara-kuma:after{content:"Verão curto. Hia é uma lagarta muito rara, que aparece em certos anos e é comestível"}.yai{fill:#7d9c80;color:#7d9c80}.yai:after{content:"Enchente de Onças"}.yai-siokha{fill:#8fb293;color:#8fb293}.yai-siokha:after{content:"Facho da Onça, parte dessa constelação"}.yai-ohpu{fill:#647f69;color:#647f69}.yai-ohpu:after{content:"Corpo da Onça, parte dessa constelação"}.pamo{fill:#978570;color:#978570}.pamo:after{content:"Enchente do Tatu"}.pamo-oaduhka{fill:#cbb9a2;color:#cbb9a2}.pamo-oaduhka:after{content:"Enchente do Osso do Tatu"}.bihpia{fill:#c7d5b8;color:#c7d5b8}.bihpia:after{content:"Enchente de uma espécie de pássaro"}.yhe{fill:#abb799;color:#abb799}.yhe:after{content:"Enchente de Garça"}.yhe-pehtiro{fill:#abb799;color:#abb799}.yhe-pehtiro:after{content:"Fim da enchente de Garça"}.dahsiu{fill:#b2b28b;color:#b2b28b}.dahsiu:after{content:"Enchente do Camarão"}.muha{fill:#688c85;color:#688c85}.muha:after{content:"Enchente do Jacundá"}.yurara{fill:#909669;color:#909669}.yurara:after{content:"Enchente do Jabuti"}.sipe-phairo{fill:#abceec;color:#abceec}.sipe-phairo:after{content:"Jararaca do ânus grande"}.wuru-numuri{fill:#909669;color:#909669}.wuru-numuri:after{content:"Dias de Aru (Bicho-Preguiça)"}.row{margin-bottom:40px}#masthead{padding:40px 0;background:#333;border-bottom:2px solid #111;color:#fff}#masthead h1,#masthead h2{font-family:"Fira Sans";line-height:100%;text-align:center}#masthead h1{text-transform:uppercase;margin:0;font-size:50px;color:#fff}#masthead h2{font-size:23px;color:#ccc}#masthead p{color:#999}#masthead .head-title{border-bottom:1px solid #444;padding:0 0 20px;margin:0 0 20px}#masthead #site-desc{margin-top:30px}#masthead #site-desc p{font-size:18px;line-height:150%}#masthead #calendar-legend{width:300px;height:300px;margin-top:-20px}#masthead #calendar-legend p{font-size:12px;text-transform:uppercase;margin:0;text-align:right}#masthead #calendar-legend svg{float:right}#masthead #calendar-legend svg path{fill:#999;stroke:#444;stroke-opacity:.2;stroke-width:2px;opacity:.5}#masthead #calendar-legend svg path:hover{fill:#fff;stroke-width:0}#masthead #calendar-legend svg text{fill:#999}#content-nav{background:#f0f0f0;border-bottom:1px solid #999}#content-nav.fixed{z-index:99999;position:fixed;top:0;left:0;right:0}#content-nav nav{width:100%;display:table}#content-nav nav a{width:1%;display:table-cell;vertical-align:middle;padding:20px 10px;text-align:center;line-height:120%;text-shadow:0 0 0;color:#444}#content-nav nav a:hover{text-shadow:0 0 0;background:#ddd;color:#333}h1,h2,h3,h4{font-family:"Oswald";font-weight:200}
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?rtdzhn');
+	src:url('../fonts/icomoon.eot?#iefixrtdzhn') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?rtdzhn') format('woff'),
+		url('../fonts/icomoon.ttf?rtdzhn') format('truetype'),
+		url('../fonts/icomoon.svg?rtdzhn#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add-to-list:before {
+	content: "\e600";
+}
+
+.icon-classic-computer:before {
+	content: "\e601";
+}
+
+.icon-controller-fast-backward:before {
+	content: "\e602";
+}
+
+.icon-creative-commons-attribution:before {
+	content: "\e603";
+}
+
+.icon-creative-commons-noderivs:before {
+	content: "\e604";
+}
+
+.icon-creative-commons-noncommercial-eu:before {
+	content: "\e605";
+}
+
+.icon-creative-commons-noncommercial-us:before {
+	content: "\e606";
+}
+
+.icon-creative-commons-public-domain:before {
+	content: "\e607";
+}
+
+.icon-creative-commons-remix:before {
+	content: "\e608";
+}
+
+.icon-creative-commons-share:before {
+	content: "\e609";
+}
+
+.icon-creative-commons-sharealike:before {
+	content: "\e60a";
+}
+
+.icon-creative-commons:before {
+	content: "\e60b";
+}
+
+.icon-document-landscape:before {
+	content: "\e60c";
+}
+
+.icon-remove-user:before {
+	content: "\e60d";
+}
+
+.icon-warning:before {
+	content: "\e60e";
+}
+
+.icon-arrow-bold-down:before {
+	content: "\e60f";
+}
+
+.icon-arrow-bold-left:before {
+	content: "\e610";
+}
+
+.icon-arrow-bold-right:before {
+	content: "\e611";
+}
+
+.icon-arrow-bold-up:before {
+	content: "\e612";
+}
+
+.icon-arrow-down:before {
+	content: "\e613";
+}
+
+.icon-arrow-left:before {
+	content: "\e614";
+}
+
+.icon-arrow-long-down:before {
+	content: "\e615";
+}
+
+.icon-arrow-long-left:before {
+	content: "\e616";
+}
+
+.icon-arrow-long-right:before {
+	content: "\e617";
+}
+
+.icon-arrow-long-up:before {
+	content: "\e618";
+}
+
+.icon-arrow-right:before {
+	content: "\e619";
+}
+
+.icon-arrow-up:before {
+	content: "\e61a";
+}
+
+.icon-arrow-with-circle-down:before {
+	content: "\e61b";
+}
+
+.icon-arrow-with-circle-left:before {
+	content: "\e61c";
+}
+
+.icon-arrow-with-circle-right:before {
+	content: "\e61d";
+}
+
+.icon-arrow-with-circle-up:before {
+	content: "\e61e";
+}
+
+.icon-bookmark:before {
+	content: "\e61f";
+}
+
+.icon-bookmarks:before {
+	content: "\e620";
+}
+
+.icon-chevron-down:before {
+	content: "\e621";
+}
+
+.icon-chevron-left:before {
+	content: "\e622";
+}
+
+.icon-chevron-right:before {
+	content: "\e623";
+}
+
+.icon-chevron-small-down:before {
+	content: "\e624";
+}
+
+.icon-chevron-small-left:before {
+	content: "\e625";
+}
+
+.icon-chevron-small-right:before {
+	content: "\e626";
+}
+
+.icon-chevron-small-up:before {
+	content: "\e627";
+}
+
+.icon-chevron-thin-down:before {
+	content: "\e628";
+}
+
+.icon-chevron-thin-left:before {
+	content: "\e629";
+}
+
+.icon-chevron-thin-right:before {
+	content: "\e62a";
+}
+
+.icon-chevron-thin-up:before {
+	content: "\e62b";
+}
+
+.icon-chevron-up:before {
+	content: "\e62c";
+}
+
+.icon-chevron-with-circle-down:before {
+	content: "\e62d";
+}
+
+.icon-chevron-with-circle-left:before {
+	content: "\e62e";
+}
+
+.icon-chevron-with-circle-right:before {
+	content: "\e62f";
+}
+
+.icon-chevron-with-circle-up:before {
+	content: "\e630";
+}
+
+.icon-cloud:before {
+	content: "\e631";
+}
+
+.icon-controller-fast-forward:before {
+	content: "\e632";
+}
+
+.icon-controller-jump-to-start:before {
+	content: "\e633";
+}
+
+.icon-controller-next:before {
+	content: "\e634";
+}
+
+.icon-controller-paus:before {
+	content: "\e635";
+}
+
+.icon-controller-play:before {
+	content: "\e636";
+}
+
+.icon-controller-record:before {
+	content: "\e637";
+}
+
+.icon-controller-stop:before {
+	content: "\e638";
+}
+
+.icon-controller-volume:before {
+	content: "\e639";
+}
+
+.icon-dot-single:before {
+	content: "\e63a";
+}
+
+.icon-dots-three-horizontal:before {
+	content: "\e63b";
+}
+
+.icon-dots-three-vertical:before {
+	content: "\e63c";
+}
+
+.icon-dots-two-horizontal:before {
+	content: "\e63d";
+}
+
+.icon-dots-two-vertical:before {
+	content: "\e63e";
+}
+
+.icon-download:before {
+	content: "\e63f";
+}
+
+.icon-emoji-flirt:before {
+	content: "\e640";
+}
+
+.icon-flow-branch:before {
+	content: "\e641";
+}
+
+.icon-flow-cascade:before {
+	content: "\e642";
+}
+
+.icon-flow-line:before {
+	content: "\e643";
+}
+
+.icon-flow-parallel:before {
+	content: "\e644";
+}
+
+.icon-flow-tree:before {
+	content: "\e645";
+}
+
+.icon-install:before {
+	content: "\e646";
+}
+
+.icon-layers:before {
+	content: "\e647";
+}
+
+.icon-open-book:before {
+	content: "\e648";
+}
+
+.icon-resize-100:before {
+	content: "\e649";
+}
+
+.icon-resize-full-screen:before {
+	content: "\e64a";
+}
+
+.icon-save:before {
+	content: "\e64b";
+}
+
+.icon-select-arrows:before {
+	content: "\e64c";
+}
+
+.icon-sound-mute:before {
+	content: "\e64d";
+}
+
+.icon-sound:before {
+	content: "\e64e";
+}
+
+.icon-trash:before {
+	content: "\e64f";
+}
+
+.icon-triangle-down:before {
+	content: "\e650";
+}
+
+.icon-triangle-left:before {
+	content: "\e651";
+}
+
+.icon-triangle-right:before {
+	content: "\e652";
+}
+
+.icon-triangle-up:before {
+	content: "\e653";
+}
+
+.icon-uninstall:before {
+	content: "\e654";
+}
+
+.icon-upload-to-cloud:before {
+	content: "\e655";
+}
+
+.icon-upload:before {
+	content: "\e656";
+}
+
+.icon-add-user:before {
+	content: "\e657";
+}
+
+.icon-address:before {
+	content: "\e658";
+}
+
+.icon-adjust:before {
+	content: "\e659";
+}
+
+.icon-air:before {
+	content: "\e65a";
+}
+
+.icon-aircraft-landing:before {
+	content: "\e65b";
+}
+
+.icon-aircraft-take-off:before {
+	content: "\e65c";
+}
+
+.icon-aircraft:before {
+	content: "\e65d";
+}
+
+.icon-align-bottom:before {
+	content: "\e65e";
+}
+
+.icon-align-horizontal-middle:before {
+	content: "\e65f";
+}
+
+.icon-align-left:before {
+	content: "\e660";
+}
+
+.icon-align-right:before {
+	content: "\e661";
+}
+
+.icon-align-top:before {
+	content: "\e662";
+}
+
+.icon-align-vertical-middle:before {
+	content: "\e663";
+}
+
+.icon-archive:before {
+	content: "\e664";
+}
+
+.icon-area-graph:before {
+	content: "\e665";
+}
+
+.icon-attachment:before {
+	content: "\e666";
+}
+
+.icon-awareness-ribbon:before {
+	content: "\e667";
+}
+
+.icon-back-in-time:before {
+	content: "\e668";
+}
+
+.icon-back:before {
+	content: "\e669";
+}
+
+.icon-bar-graph:before {
+	content: "\e66a";
+}
+
+.icon-battery:before {
+	content: "\e66b";
+}
+
+.icon-beamed-note:before {
+	content: "\e66c";
+}
+
+.icon-bell:before {
+	content: "\e66d";
+}
+
+.icon-blackboard:before {
+	content: "\e66e";
+}
+
+.icon-block:before {
+	content: "\e66f";
+}
+
+.icon-book:before {
+	content: "\e670";
+}
+
+.icon-bowl:before {
+	content: "\e671";
+}
+
+.icon-box:before {
+	content: "\e672";
+}
+
+.icon-briefcase:before {
+	content: "\e673";
+}
+
+.icon-browser:before {
+	content: "\e674";
+}
+
+.icon-brush:before {
+	content: "\e675";
+}
+
+.icon-bucket:before {
+	content: "\e676";
+}
+
+.icon-cake:before {
+	content: "\e677";
+}
+
+.icon-calculator:before {
+	content: "\e678";
+}
+
+.icon-calendar:before {
+	content: "\e679";
+}
+
+.icon-camera:before {
+	content: "\e67a";
+}
+
+.icon-ccw:before {
+	content: "\e67b";
+}
+
+.icon-chat:before {
+	content: "\e67c";
+}
+
+.icon-check:before {
+	content: "\e67d";
+}
+
+.icon-circle-with-cross:before {
+	content: "\e67e";
+}
+
+.icon-circle-with-minus:before {
+	content: "\e67f";
+}
+
+.icon-circle-with-plus:before {
+	content: "\e680";
+}
+
+.icon-circle:before {
+	content: "\e681";
+}
+
+.icon-circular-graph:before {
+	content: "\e682";
+}
+
+.icon-clapperboard:before {
+	content: "\e683";
+}
+
+.icon-clipboard:before {
+	content: "\e684";
+}
+
+.icon-clock:before {
+	content: "\e685";
+}
+
+.icon-code:before {
+	content: "\e686";
+}
+
+.icon-cog:before {
+	content: "\e687";
+}
+
+.icon-colours:before {
+	content: "\e688";
+}
+
+.icon-compass:before {
+	content: "\e689";
+}
+
+.icon-copy:before {
+	content: "\e68a";
+}
+
+.icon-credit-card:before {
+	content: "\e68b";
+}
+
+.icon-credit:before {
+	content: "\e68c";
+}
+
+.icon-cross:before {
+	content: "\e68d";
+}
+
+.icon-cup:before {
+	content: "\e68e";
+}
+
+.icon-cw:before {
+	content: "\e68f";
+}
+
+.icon-cycle:before {
+	content: "\e690";
+}
+
+.icon-database:before {
+	content: "\e691";
+}
+
+.icon-dial-pad:before {
+	content: "\e692";
+}
+
+.icon-direction:before {
+	content: "\e693";
+}
+
+.icon-document:before {
+	content: "\e694";
+}
+
+.icon-documents:before {
+	content: "\e695";
+}
+
+.icon-drink:before {
+	content: "\e696";
+}
+
+.icon-drive:before {
+	content: "\e697";
+}
+
+.icon-drop:before {
+	content: "\e698";
+}
+
+.icon-edit:before {
+	content: "\e699";
+}
+
+.icon-email:before {
+	content: "\e69a";
+}
+
+.icon-emoji-happy:before {
+	content: "\e69b";
+}
+
+.icon-emoji-neutral:before {
+	content: "\e69c";
+}
+
+.icon-emoji-sad:before {
+	content: "\e69d";
+}
+
+.icon-erase:before {
+	content: "\e69e";
+}
+
+.icon-eraser:before {
+	content: "\e69f";
+}
+
+.icon-export:before {
+	content: "\e6a0";
+}
+
+.icon-eye:before {
+	content: "\e6a1";
+}
+
+.icon-feather:before {
+	content: "\e6a2";
+}
+
+.icon-flag:before {
+	content: "\e6a3";
+}
+
+.icon-flash:before {
+	content: "\e6a4";
+}
+
+.icon-flashlight:before {
+	content: "\e6a5";
+}
+
+.icon-flat-brush:before {
+	content: "\e6a6";
+}
+
+.icon-folder-images:before {
+	content: "\e6a7";
+}
+
+.icon-folder-music:before {
+	content: "\e6a8";
+}
+
+.icon-folder-video:before {
+	content: "\e6a9";
+}
+
+.icon-folder:before {
+	content: "\e6aa";
+}
+
+.icon-forward:before {
+	content: "\e6ab";
+}
+
+.icon-funnel:before {
+	content: "\e6ac";
+}
+
+.icon-game-controller:before {
+	content: "\e6ad";
+}
+
+.icon-gauge:before {
+	content: "\e6ae";
+}
+
+.icon-globe:before {
+	content: "\e6af";
+}
+
+.icon-graduation-cap:before {
+	content: "\e6b0";
+}
+
+.icon-grid:before {
+	content: "\e6b1";
+}
+
+.icon-hair-cross:before {
+	content: "\e6b2";
+}
+
+.icon-hand:before {
+	content: "\e6b3";
+}
+
+.icon-heart-outlined:before {
+	content: "\e6b4";
+}
+
+.icon-heart:before {
+	content: "\e6b5";
+}
+
+.icon-help-with-circle:before {
+	content: "\e6b6";
+}
+
+.icon-help:before {
+	content: "\e6b7";
+}
+
+.icon-home:before {
+	content: "\e6b8";
+}
+
+.icon-hour-glass:before {
+	content: "\e6b9";
+}
+
+.icon-image-inverted:before {
+	content: "\e6ba";
+}
+
+.icon-image:before {
+	content: "\e6bb";
+}
+
+.icon-images:before {
+	content: "\e6bc";
+}
+
+.icon-inbox:before {
+	content: "\e6bd";
+}
+
+.icon-infinity:before {
+	content: "\e6be";
+}
+
+.icon-info-with-circle:before {
+	content: "\e6bf";
+}
+
+.icon-info:before {
+	content: "\e6c0";
+}
+
+.icon-key:before {
+	content: "\e6c1";
+}
+
+.icon-keyboard:before {
+	content: "\e6c2";
+}
+
+.icon-lab-flask:before {
+	content: "\e6c3";
+}
+
+.icon-landline:before {
+	content: "\e6c4";
+}
+
+.icon-language:before {
+	content: "\e6c5";
+}
+
+.icon-laptop:before {
+	content: "\e6c6";
+}
+
+.icon-leaf:before {
+	content: "\e6c7";
+}
+
+.icon-level-down:before {
+	content: "\e6c8";
+}
+
+.icon-level-up:before {
+	content: "\e6c9";
+}
+
+.icon-lifebuoy:before {
+	content: "\e6ca";
+}
+
+.icon-light-bulb:before {
+	content: "\e6cb";
+}
+
+.icon-light-down:before {
+	content: "\e6cc";
+}
+
+.icon-light-up:before {
+	content: "\e6cd";
+}
+
+.icon-line-graph:before {
+	content: "\e6ce";
+}
+
+.icon-link:before {
+	content: "\e6cf";
+}
+
+.icon-list:before {
+	content: "\e6d0";
+}
+
+.icon-location-pin:before {
+	content: "\e6d1";
+}
+
+.icon-location:before {
+	content: "\e6d2";
+}
+
+.icon-lock-open:before {
+	content: "\e6d3";
+}
+
+.icon-lock:before {
+	content: "\e6d4";
+}
+
+.icon-log-out:before {
+	content: "\e6d5";
+}
+
+.icon-login:before {
+	content: "\e6d6";
+}
+
+.icon-loop:before {
+	content: "\e6d7";
+}
+
+.icon-magnet:before {
+	content: "\e6d8";
+}
+
+.icon-magnifying-glass:before {
+	content: "\e6d9";
+}
+
+.icon-mail:before {
+	content: "\e6da";
+}
+
+.icon-man:before {
+	content: "\e6db";
+}
+
+.icon-map:before {
+	content: "\e6dc";
+}
+
+.icon-mask:before {
+	content: "\e6dd";
+}
+
+.icon-medal:before {
+	content: "\e6de";
+}
+
+.icon-megaphone:before {
+	content: "\e6df";
+}
+
+.icon-menu:before {
+	content: "\e6e0";
+}
+
+.icon-message:before {
+	content: "\e6e1";
+}
+
+.icon-mic:before {
+	content: "\e6e2";
+}
+
+.icon-minus:before {
+	content: "\e6e3";
+}
+
+.icon-mobile:before {
+	content: "\e6e4";
+}
+
+.icon-modern-mic:before {
+	content: "\e6e5";
+}
+
+.icon-moon:before {
+	content: "\e6e6";
+}
+
+.icon-mouse:before {
+	content: "\e6e7";
+}
+
+.icon-music:before {
+	content: "\e6e8";
+}
+
+.icon-network:before {
+	content: "\e6e9";
+}
+
+.icon-new-message:before {
+	content: "\e6ea";
+}
+
+.icon-new:before {
+	content: "\e6eb";
+}
+
+.icon-news:before {
+	content: "\e6ec";
+}
+
+.icon-note:before {
+	content: "\e6ed";
+}
+
+.icon-notification:before {
+	content: "\e6ee";
+}
+
+.icon-old-mobile:before {
+	content: "\e6ef";
+}
+
+.icon-old-phone:before {
+	content: "\e6f0";
+}
+
+.icon-palette:before {
+	content: "\e6f1";
+}
+
+.icon-paper-plane:before {
+	content: "\e6f2";
+}
+
+.icon-pencil:before {
+	content: "\e6f3";
+}
+
+.icon-phone:before {
+	content: "\e6f4";
+}
+
+.icon-pie-chart:before {
+	content: "\e6f5";
+}
+
+.icon-pin:before {
+	content: "\e6f6";
+}
+
+.icon-plus:before {
+	content: "\e6f7";
+}
+
+.icon-popup:before {
+	content: "\e6f8";
+}
+
+.icon-power-plug:before {
+	content: "\e6f9";
+}
+
+.icon-price-ribbon:before {
+	content: "\e6fa";
+}
+
+.icon-price-tag:before {
+	content: "\e6fb";
+}
+
+.icon-print:before {
+	content: "\e6fc";
+}
+
+.icon-progress-empty:before {
+	content: "\e6fd";
+}
+
+.icon-progress-full:before {
+	content: "\e6fe";
+}
+
+.icon-progress-one:before {
+	content: "\e6ff";
+}
+
+.icon-progress-two:before {
+	content: "\e700";
+}
+
+.icon-publish:before {
+	content: "\e701";
+}
+
+.icon-quote:before {
+	content: "\e702";
+}
+
+.icon-radio:before {
+	content: "\e703";
+}
+
+.icon-reply-all:before {
+	content: "\e704";
+}
+
+.icon-reply:before {
+	content: "\e705";
+}
+
+.icon-retweet:before {
+	content: "\e706";
+}
+
+.icon-rocket:before {
+	content: "\e707";
+}
+
+.icon-round-brush:before {
+	content: "\e708";
+}
+
+.icon-rss:before {
+	content: "\e709";
+}
+
+.icon-ruler:before {
+	content: "\e70a";
+}
+
+.icon-scissors:before {
+	content: "\e70b";
+}
+
+.icon-share-alternitive:before {
+	content: "\e70c";
+}
+
+.icon-share:before {
+	content: "\e70d";
+}
+
+.icon-shareable:before {
+	content: "\e70e";
+}
+
+.icon-shield:before {
+	content: "\e70f";
+}
+
+.icon-shop:before {
+	content: "\e710";
+}
+
+.icon-shopping-bag:before {
+	content: "\e711";
+}
+
+.icon-shopping-basket:before {
+	content: "\e712";
+}
+
+.icon-shopping-cart:before {
+	content: "\e713";
+}
+
+.icon-shuffle:before {
+	content: "\e714";
+}
+
+.icon-signal:before {
+	content: "\e715";
+}
+
+.icon-sound-mix:before {
+	content: "\e716";
+}
+
+.icon-sports-club:before {
+	content: "\e717";
+}
+
+.icon-spreadsheet:before {
+	content: "\e718";
+}
+
+.icon-squared-cross:before {
+	content: "\e719";
+}
+
+.icon-squared-minus:before {
+	content: "\e71a";
+}
+
+.icon-squared-plus:before {
+	content: "\e71b";
+}
+
+.icon-star-outlined:before {
+	content: "\e71c";
+}
+
+.icon-star:before {
+	content: "\e71d";
+}
+
+.icon-stopwatch:before {
+	content: "\e71e";
+}
+
+.icon-suitcase:before {
+	content: "\e71f";
+}
+
+.icon-swap:before {
+	content: "\e720";
+}
+
+.icon-sweden:before {
+	content: "\e721";
+}
+
+.icon-switch:before {
+	content: "\e722";
+}
+
+.icon-tablet:before {
+	content: "\e723";
+}
+
+.icon-tag:before {
+	content: "\e724";
+}
+
+.icon-text-document-inverted:before {
+	content: "\e725";
+}
+
+.icon-text-document:before {
+	content: "\e726";
+}
+
+.icon-text:before {
+	content: "\e727";
+}
+
+.icon-thermometer:before {
+	content: "\e728";
+}
+
+.icon-thumbs-down:before {
+	content: "\e729";
+}
+
+.icon-thumbs-up:before {
+	content: "\e72a";
+}
+
+.icon-thunder-cloud:before {
+	content: "\e72b";
+}
+
+.icon-ticket:before {
+	content: "\e72c";
+}
+
+.icon-time-slot:before {
+	content: "\e72d";
+}
+
+.icon-tools:before {
+	content: "\e72e";
+}
+
+.icon-traffic-cone:before {
+	content: "\e72f";
+}
+
+.icon-tree:before {
+	content: "\e730";
+}
+
+.icon-trophy:before {
+	content: "\e731";
+}
+
+.icon-tv:before {
+	content: "\e732";
+}
+
+.icon-typing:before {
+	content: "\e733";
+}
+
+.icon-unread:before {
+	content: "\e734";
+}
+
+.icon-untag:before {
+	content: "\e735";
+}
+
+.icon-user:before {
+	content: "\e736";
+}
+
+.icon-users:before {
+	content: "\e737";
+}
+
+.icon-v-card:before {
+	content: "\e738";
+}
+
+.icon-video:before {
+	content: "\e739";
+}
+
+.icon-vinyl:before {
+	content: "\e73a";
+}
+
+.icon-voicemail:before {
+	content: "\e73b";
+}
+
+.icon-wallet:before {
+	content: "\e73c";
+}
+
+.icon-water:before {
+	content: "\e73d";
+}
+
+.icon-500px-with-circle:before {
+	content: "\e73e";
+}
+
+.icon-500px:before {
+	content: "\e73f";
+}
+
+.icon-basecamp:before {
+	content: "\e740";
+}
+
+.icon-behance:before {
+	content: "\e741";
+}
+
+.icon-creative-cloud:before {
+	content: "\e742";
+}
+
+.icon-dropbox:before {
+	content: "\e743";
+}
+
+.icon-evernote:before {
+	content: "\e744";
+}
+
+.icon-flattr:before {
+	content: "\e745";
+}
+
+.icon-foursquare:before {
+	content: "\e746";
+}
+
+.icon-google-drive:before {
+	content: "\e747";
+}
+
+.icon-google-hangouts:before {
+	content: "\e748";
+}
+
+.icon-grooveshark:before {
+	content: "\e749";
+}
+
+.icon-icloud:before {
+	content: "\e74a";
+}
+
+.icon-mixi:before {
+	content: "\e74b";
+}
+
+.icon-onedrive:before {
+	content: "\e74c";
+}
+
+.icon-paypal:before {
+	content: "\e74d";
+}
+
+.icon-picasa:before {
+	content: "\e74e";
+}
+
+.icon-qq:before {
+	content: "\e74f";
+}
+
+.icon-rdio-with-circle:before {
+	content: "\e750";
+}
+
+.icon-renren:before {
+	content: "\e751";
+}
+
+.icon-scribd:before {
+	content: "\e752";
+}
+
+.icon-sina-weibo:before {
+	content: "\e753";
+}
+
+.icon-skype-with-circle:before {
+	content: "\e754";
+}
+
+.icon-skype:before {
+	content: "\e755";
+}
+
+.icon-slideshare:before {
+	content: "\e756";
+}
+
+.icon-smashing:before {
+	content: "\e757";
+}
+
+.icon-soundcloud:before {
+	content: "\e758";
+}
+
+.icon-spotify-with-circle:before {
+	content: "\e759";
+}
+
+.icon-spotify:before {
+	content: "\e75a";
+}
+
+.icon-swarm:before {
+	content: "\e75b";
+}
+
+.icon-vine-with-circle:before {
+	content: "\e75c";
+}
+
+.icon-vine:before {
+	content: "\e75d";
+}
+
+.icon-vk-alternitive:before {
+	content: "\e75e";
+}
+
+.icon-vk-with-circle:before {
+	content: "\e75f";
+}
+
+.icon-vk:before {
+	content: "\e760";
+}
+
+.icon-xing-with-circle:before {
+	content: "\e761";
+}
+
+.icon-xing:before {
+	content: "\e762";
+}
+
+.icon-yelp:before {
+	content: "\e763";
+}
+
+.icon-dribbble-with-circle:before {
+	content: "\e764";
+}
+
+.icon-dribbble:before {
+	content: "\e765";
+}
+
+.icon-facebook-with-circle:before {
+	content: "\e766";
+}
+
+.icon-facebook:before {
+	content: "\e767";
+}
+
+.icon-flickr-with-circle:before {
+	content: "\e768";
+}
+
+.icon-flickr:before {
+	content: "\e769";
+}
+
+.icon-github-with-circle:before {
+	content: "\e76a";
+}
+
+.icon-github:before {
+	content: "\e76b";
+}
+
+.icon-google-with-circle:before {
+	content: "\e76c";
+}
+
+.icon-google:before {
+	content: "\e76d";
+}
+
+.icon-instagram-with-circle:before {
+	content: "\e76e";
+}
+
+.icon-instagram:before {
+	content: "\e76f";
+}
+
+.icon-lastfm-with-circle:before {
+	content: "\e770";
+}
+
+.icon-lastfm:before {
+	content: "\e771";
+}
+
+.icon-linkedin-with-circle:before {
+	content: "\e772";
+}
+
+.icon-linkedin:before {
+	content: "\e773";
+}
+
+.icon-pinterest-with-circle:before {
+	content: "\e774";
+}
+
+.icon-pinterest:before {
+	content: "\e775";
+}
+
+.icon-rdio:before {
+	content: "\e776";
+}
+
+.icon-stumbleupon-with-circle:before {
+	content: "\e777";
+}
+
+.icon-stumbleupon:before {
+	content: "\e778";
+}
+
+.icon-tumblr-with-circle:before {
+	content: "\e779";
+}
+
+.icon-tumblr:before {
+	content: "\e77a";
+}
+
+.icon-twitter-with-circle:before {
+	content: "\e77b";
+}
+
+.icon-twitter:before {
+	content: "\e77c";
+}
+
+.icon-vimeo-with-circle:before {
+	content: "\e77d";
+}
+
+.icon-vimeo:before {
+	content: "\e77e";
+}
+
+.icon-youtube-with-circle:before {
+	content: "\e77f";
+}
+
+.icon-youtube:before {
+	content: "\e780";
+}
+
+body{margin:0;padding:0}#corpo{font:14px/20px lighter;font-family:"Fira Sans",sans-serif;width:850px;margin:50px auto;color:#444;background:#fff url("img/fundo.jpg") no-repeat 50% 0;position:relative}a{color:#466464;text-decoration:none;text-shadow:0 0 2px rgba(0,0,0,0.25)}a:hover{color:#5f7c7c;text-shadow:0 0 8px rgba(0,0,0,0.5)}.clear{clear:both;width:100%;height:0}#viz{width:850px;height:675px;margin:0 auto}#content{font-weight:300;text-align:center;width:820px;padding:60px 0}#text{text-align:right;float:left;width:520px;margin-bottom:60px;font-size:15px;line-height:30px}#text a{font-weight:bolder}#text a:hover{text-shadow:0 0 4px rgba(0,0,0,0.2)}#text p.small{font-size:12px;line-height:20px;color:#888;margin-top:30px}.rain .arc path,.river .arc path{opacity:1}.rain .arc:hover path,.river .arc:hover path{opacity:.5}.constelations text{text-anchor:end;font-weight:bolder;font-size:15px;letter-spacing:-0.02em}.constelations text.trad-const{font-weight:lighter;font-size:10px}.constelations circle img:hover{opacity:1}.phasearc{opacity:1;box-shadow:0 0 3px rgba(0,0,0,0.5);stroke:#fff;stroke-opacity:.3}.phasearc:hover{opacity:.5}.rainAxis,.levelAxis{fill:#888;-webkit-transitions:all .5s ease-in-out}.tick{fill:#666}.tick text{font-size:7px}.const-arc-leg,.greg-arc-leg,.level-arc-leg,.rain-arc-leg,.phases-arc-leg{fill:#cac0a5;stroke:#d6bbbb;stroke-opacity:.2;stroke-width:5px;opacity:.5}.const-arc-leg:hover,.greg-arc-leg:hover,.level-arc-leg:hover,.rain-arc-leg:hover,.phases-arc-leg:hover{stroke-width:3px;opacity:.75}.menu{list-style:none;width:230px;height:60px;margin:0;padding:0;text-align:center;overflow:hidden;position:absolute;top:0;z-index:99999}.menu:hover{height:300px}.menu li:hover a{background-color:rgba(103,163,108,0.25);color:#fff}.menu li a{width:215px;line-height:20px;font-family:"Oswald","Share";font-weight:bolder;font-size:12px;background-color:#f6f8f5;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,0.05);-webkit-box-shadow:0 0 10px rgba(0,0,0,0.05);-moz-box-shadow:0 0 10px rgba(0,0,0,0.05);margin:10px auto;position:relative;top:-100%;visibility:hidden}.menu:hover li a{display:block;visibility:visible}.menu li a.active{line-height:40px;height:40px;font-size:20px;font-weight:bolder;top:0;position:absolute;display:block;visibility:visible;background:#fff;margin:10px;-webkit-box-shadow:0 0 10px rgba(0,0,0,0.05);width:215px}.menu:hover li a.active{position:relative}.menu li a.active:hover{background:rgba(143,185,146,0.5);color:#fff}#explanation{position:absolute;top:0;right:0;width:220px;height:215px;padding:15px;z-index:99999;text-align:right;pointer-events:none}.dates-end,.dates-start,.phasetip{font-family:"Fira Sans";font-weight:300;font-size:10px;fill:#6f6f6f}.tip-fase{font-size:12px;line-height:12px;height:12px;color:#666;display:block}.tip-year{font-family:"Oswald";font-size:30px;font-weight:bolder;letter-spacing:-0.1em;fill:#666;color:#666;width:170px;float:left;height:41px;line-height:45px}.tip-date{font-size:13px;font-weight:bolder;letter-spacing:-0.05em;line-height:13px;margin:7px 0 0 0;float:right;height:20px;width:50px}.tip-week{font-size:9px;line-height:13px;margin:0 -10px 0 0;letter-spacing:1em;font-weight:lighter;text-transform:uppercase;float:right;height:20px;width:50px}.tip-level,.tip-rain{font-size:8px;width:170px;height:14px;float:left;margin:4px 0 0 0}.results{font-size:13px;width:35px;height:14px;float:right;font-weight:bolder}.phase-dates{display:block;width:220px}.phase-name{font-size:16px;line-height:18px;width:210px;display:block;letter-spacing:.001em;text-shadow:0 0 10px #fff;float:right}#explanation :after{display:block;font-size:11px;line-height:14px;color:#666;width:165px;margin:5px 0 0 55px;float:right;font-family:"Fira Sans"}.legend-disc text{opacity:0;font-size:10px}.tukano{font-family:"Frugaltuyu LightDTC","Tukano","Oswald"}.tip-year,.tip-date,.tip-week,.tip-level,.tip-rain,.tip-fase,.results,.ciclo-anual{text-shadow:1px 1px 4px rgba(0,0,0,0.3)}.nome-const,.trad-const{text-align:right;margin:0 80px 0 0}.months g{opacity:.5}.months g:hover{opacity:1}.sky image{pointer-events:none}#content h1{font-family:"Oswald";font-weight:lighter;text-transform:uppercase;margin:0 auto 50px;font-size:50px;line-height:50px;color:#719696;text-shadow:0 0 5px rgba(211,207,180,0.75)}#content h2{font-family:"Oswald";font-weight:bolder;text-transform:uppercase;margin:0 auto 50px;font-size:30px;color:#000}#content h3.lead{font-weight:400;font-size:20px;margin:0 0 30px 0;color:#7c7c57}.secondArcHolder path{opacity:.5;fill:#fff}.t-01-const:hover,.t-02-const:hover,.t-03-const:hover,.t-04-const:hover{opacity:.6}#sidebar{font-weight:300;text-align:left;float:right;width:260px;font-size:10px;color:#888;padding:20px 0 60px 0}#sidebar a{display:block}.realiz,.apoio{width:120px;height:120px;float:left;margin:5px}.menor{height:80px}#sidebar .realiz h1{font-size:14px;text-align:center;margin:40px 20px 5px;line-height:14px}#sidebar h2{margin:50px 0 5px 0;font-weight:bolder;font-size:12px}#sidebar h3{margin:60px 0 10px;font-weight:lighter;font-size:10px;text-align:center;clear:both}#sidebar h5{margin:30px 0 5px 0;font-weight:bolder}#sidebar h4{margin:0;font-weight:lighter;font-size:10px}#sidebar h4 b{font-weight:400}#sidebar h4 i{font-size:8px}#sidebar .realiz h4{text-align:center;margin:0 5px;font-size:8px;line-height:10px}.ahsitaro{fill:#ffd369;color:#ffd369}.ahsitaro:after{content:"Veranico. Palavra geral, o mesmo que Kumã ou Kumãtaro"}.ure-kuma{fill:#e19724;color:#e19724}.ure-kuma:after{content:"Verão de Pupunha"}.use-kuma{fill:#be8a62;color:#be8a62}.use-kuma:after{content:"Verão de Cucura"}.mere-kuma{fill:#d49a3e;color:#d49a3e}.mere-kuma:after{content:"Verão de Ingá (fruta regional)"}.wamu-kuma{fill:#d2bc4a;color:#d2bc4a}.wamu-kuma:after{content:"Verão de Umari (nome de fruta cultivada)"}.kare-kuma{fill:#e1d52b;color:#e1d52b}.kare-kuma:after{content:"Verão de Abiu (fruta regional)"}.sararo-kuma{fill:#e8e048;color:#e8e048}.sararo-kuma:after{content:"Verão de (uma espécie de) Gafanhoto"}.nokoatero{fill:#6f5872;color:#6f5872}.nokoatero:after{content:"Enchente de Sete Estrelas (Plêiades)"}.wai-kahsa{fill:#39487b;color:#39487b}.wai-kahsa:after{content:"Enchente de Girau de Peixe"}.sio-yahpu{fill:#39487b;color:#39487b}.sio-yahpu:after{content:"Enchente de Cabo de Enxó"}.sio-yahpu-wahtidhiaro{fill:#4f4774;color:#4f4774}.sio-yahpu-wahtidhiaro:after{content:"Enchente de uma espécie de formiga"}.ana{fill:#a1ae77;color:#a1ae77}.ana:after{content:"Jararaca, nome de uma constelação e de um período chuvoso (inverno ou poerõ)"}.ana-pihkoro{fill:#b4ba8e;color:#b4ba8e}.ana-pihkoro:after{content:"Rabo da Jararaca, parte da constelação"}.ana-siokha{fill:#bbca85;color:#bbca85}.ana-siokha:after{content:"Facho (ou algo como um farol, que ilumina) da Jararaca, outra parte dessa constelação"}.ana-ohpu{fill:#818a60;color:#818a60}.ana-ohpu:after{content:"Corpo da Jararaca, parte da constelação"}.ana-dieripa{fill:#6e735d;color:#6e735d}.ana-dieripa:after{content:"Ova da Jararaca, parte da constelação"}.hia-kuma{fill:#f9a975;color:#f9a975}.hia-kuma:after{content:"Verão curto da Hia, que só come as folhas de uma árvore chamada cunuri"}.hia-utaphea-keose-kuma{fill:#fbb78e;color:#fbb78e}.hia-utaphea-keose-kuma:after{content:"Verões curtos da Hia, lagarta comestível e rara"}.hia-yunari-kuma{fill:#f79d93;color:#f79d93}.hia-yunari-kuma:after{content:"Verões curtos da Hia, lagarta comestível e rara"}.hia-diara-kuma{fill:#f9b6a5;color:#f9b6a5}.hia-diara-kuma:after{content:"Verão curto. Hia é uma lagarta muito rara, que aparece em certos anos e é comestível"}.yai{fill:#7d9c80;color:#7d9c80}.yai:after{content:"Enchente de Onças"}.yai-siokha{fill:#8fb293;color:#8fb293}.yai-siokha:after{content:"Facho da Onça, parte dessa constelação"}.yai-ohpu{fill:#647f69;color:#647f69}.yai-ohpu:after{content:"Corpo da Onça, parte dessa constelação"}.pamo{fill:#978570;color:#978570}.pamo:after{content:"Enchente do Tatu"}.pamo-oaduhka{fill:#cbb9a2;color:#cbb9a2}.pamo-oaduhka:after{content:"Enchente do Osso do Tatu"}.bihpia{fill:#c7d5b8;color:#c7d5b8}.bihpia:after{content:"Enchente de uma espécie de pássaro"}.yhe{fill:#abb799;color:#abb799}.yhe:after{content:"Enchente de Garça"}.yhe-pehtiro{fill:#abb799;color:#abb799}.yhe-pehtiro:after{content:"Fim da enchente de Garça"}.dahsiu{fill:#b2b28b;color:#b2b28b}.dahsiu:after{content:"Enchente do Camarão"}.muha{fill:#688c85;color:#688c85}.muha:after{content:"Enchente do Jacundá"}.yurara{fill:#909669;color:#909669}.yurara:after{content:"Enchente do Jabuti"}.sipe-phairo{fill:#abceec;color:#abceec}.sipe-phairo:after{content:"Jararaca do ânus grande"}.wuru-numuri{fill:#909669;color:#909669}.wuru-numuri:after{content:"Dias de Aru (Bicho-Preguiça)"}.row{margin-bottom:40px}#masthead{padding:40px 0;background:#333;border-bottom:2px solid #111;color:#fff}#masthead h1,#masthead h2{font-family:"Fira Sans";line-height:100%;text-align:center}#masthead h1{text-transform:uppercase;margin:0;font-size:50px;color:#fff}#masthead h2{font-size:23px;color:#ccc}#masthead p{color:#999}#masthead .head-title{border-bottom:1px solid #444;padding:0 0 20px;margin:0 0 20px}#masthead #site-desc{margin-top:30px}#masthead #site-desc p{font-size:18px;line-height:150%}#masthead #calendar-legend{width:300px;height:300px;margin-top:-20px}#masthead #calendar-legend p{font-size:12px;text-transform:uppercase;margin:0;text-align:right}#masthead #calendar-legend svg{float:right}#masthead #calendar-legend svg path{fill:#999;stroke:#444;stroke-opacity:.2;stroke-width:2px;opacity:.5}#masthead #calendar-legend svg path:hover{fill:#fff;stroke-width:0}#masthead #calendar-legend svg text{fill:#999}#content-nav{background:#fff}#content-nav.fixed{z-index:99999;position:fixed;top:0}#content-nav nav{width:100%;padding-top:60px}#content-nav nav .grouped,#content-nav nav a{font-family:"Oswald";font-weight:200;display:block;padding:20px 0;line-height:120%;font-size:20px;text-shadow:0 0 0;margin:0;color:#444;border-bottom:1px solid #ddd}#content-nav nav .grouped:hover,#content-nav nav a:hover{text-shadow:0 0 0;color:#111}#content-nav nav .grouped a{display:inline;padding:0;margin-left:10px;border:0}.page-section{padding-top:60px}h1,h2,h3,h4{font-family:"Oswald";font-weight:200}
