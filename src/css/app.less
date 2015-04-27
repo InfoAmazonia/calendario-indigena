@@ -75,6 +75,13 @@
 #content-nav {
 	background: #f0f0f0;
 	border-bottom: 1px solid #999;
+	&.fixed {
+		z-index: 99999;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
 	nav {
 		width: 100%;
 		display: table;
@@ -89,7 +96,7 @@
 			color: #444;
 			&:hover {
 				text-shadow: 0 0 0;
-				background: #ccc;
+				background: #ddd;
 				color: #333;
 			}
 		}
