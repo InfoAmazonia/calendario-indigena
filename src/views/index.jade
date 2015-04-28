@@ -3,7 +3,7 @@ html
 	head
 		include includes/head
 	body
-		#masthead.row
+		#masthead
 			.container.row
 				.twelve.columns
 					.head-title
@@ -21,19 +21,20 @@ html
 							br
 							| do calendário:
 
-		include viz
-
 		.row
-			#map
-				iframe(width='100%' height='520' frameborder='0' src='https://infoamazonia.cartodb.com/viz/435e6a7a-ed19-11e4-a718-0e9d821ea90d/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen)
-
-			#video
-				iframe(width="560" height="315" src="https://www.youtube.com/embed/zEa6ZUMWb4Q" frameborder="0" allowfullscreen)
+			include viz
 
 		.container
 			.three.columns
 				include includes/content-nav
 			.eight.columns
+				.row
+					#video
+						iframe(width="560" height="315" src="https://www.youtube.com/embed/zEa6ZUMWb4Q" frameborder="0" allowfullscreen)
+				.row
+					#map
+						h2 Mapa das comunidades do Rio Tiquié
+						iframe(width='100%' height='520' frameborder='0' src='https://infoamazonia.cartodb.com/viz/435e6a7a-ed19-11e4-a718-0e9d821ea90d/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen)
 				section#alto-rio-negro.page-section
 					h2 Alto rio Negro – noroeste amazônico
 					p O noroeste amazônico compreende o Alto Rio Negro, região de fronteira entre Brasil, Colômbia e Venezuela, onde habitam 31 povos de quatro famílias linguísticas que constituem um sistema multi-étnico que perdura desde tempos pré-coloniais. Apenas na parte brasileira estão localizadas nove terras indígenas homologadas a partir de 1997, totalizando mais de 200 mil km² em extensão contínua. Com uma população total de 64 mil (estimativa IBGE, 2014), distribuída em cerca de 700 comunidades e pequenas cidades ribeirinhas, é a região com a maior proporção de população indígena no Brasil, superando 80%.

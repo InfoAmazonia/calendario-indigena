@@ -9,6 +9,17 @@ $(document).ready(function() {
 	// fit vids
 	$('body').fitVids();
 
+	// fit video and map container
+	(function() {
+		var $video = $('#video,#map');
+		$(window).resize(function() {
+			var offset = $video.offset().left;
+			var siteWidth = $('body').width();
+			$video.width(siteWidth-offset-40);
+		});
+		$(window).resize();
+	})();
+
 	// fixed content nav
 
 	(function() {
@@ -18,8 +29,14 @@ $(document).ready(function() {
 		
 		var clone = false;
 
-		$(document).resize(function() {
+		$(window).resize(function() {
 			offset = $nav.offset().top;
+			if(clone) {
+				clone.css({
+					width: $nav.width(),
+					left: $nav.offset().left
+				});
+			}
 		});
 
 		$(window).scroll(function() {
