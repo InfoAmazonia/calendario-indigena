@@ -19,7 +19,7 @@
   "homepage": "https://github.com/InfoAmazonia/calendario-indigena",
   "dependencies": {
     "d3": "^3.5.5",
-    "jquery": "^2.1.3",
+    "jquery": "^3.5.1",
     "moment": "^2.10.2",
     "napa": "latest"
   },
